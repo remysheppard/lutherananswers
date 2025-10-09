@@ -2,6 +2,10 @@ baseURL: https://www.lutherananswers.com/
 languageCode: en-us
 title: Lutheran Answers
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 markup:
   goldmark:
     renderer:
@@ -48,4 +52,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/remysheppard/new-lutheran-answers"
+    base: "https://github.com/remysheppard/new-lutheran-answers/edit/main"
