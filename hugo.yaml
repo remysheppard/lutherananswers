@@ -39,6 +39,16 @@ menu:
 
 params:
 
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: logo-wordless.svg
+      dark: logo-wordless-dark.svg
+      link: /
+      width: 60
+      height: 60
+
   page:
       # full (100%), wide (90rem), normal (1280px)
       width: wide
