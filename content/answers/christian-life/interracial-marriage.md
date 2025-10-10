@@ -2,7 +2,7 @@
 date: '2025-10-09T18:06:43-04:00'
 title: 'Does the Bible condemn interracial marriage?'
 ---
-![Interracial Marriage](interracial-marriage.png)
+![Interracial Marriage](/images/answers/interracial-marriage.png)
 
 There are a lot of people on the internet these days talking about interracial marriage. Especially on , where hateful, unbiblical, and satanic views about race seem to have taken a hold with disaffected men. These views seem wicked at face-value, but they purport to be Biblical. 
 
