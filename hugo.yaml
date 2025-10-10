@@ -39,6 +39,8 @@ menu:
 
 params:
 
+  externalLinkDecoration: true
+
   navbar:
     displayTitle: true
     displayLogo: true
@@ -62,4 +64,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/remysheppard/new-lutheran-answers/edit/main"
+    base: "https://github.com/remysheppard/lutherananswers/edit/main/content/"
