@@ -6,17 +6,17 @@ type: docs
 
 {{< cards >}}
 
-  {{< card link="/boc/large-catechism/preface/" title="Preface of Dr. Luther" subtitle="to the Large Catechism" image="/images/large-catechism-2.png" method="fill" options="800x800 Top webp q80" >}}
+  {{< card link="/confessions/large-catechism/preface/" title="Preface of Dr. Luther" subtitle="to the Large Catechism" image="/images/confessions/large-catechism-2.png" method="fill" options="800x800 Top webp q80" >}}
   
-  {{< card link="/boc/large-catechism/ten-commandments/" title="The Ten Commandments" subtitle="" image="/images/luther-portrait-cranach.jpg" method="fill" options="800x800 Top webp q80" >}}
+  {{< card link="/confessions/large-catechism/ten-commandments/" title="The Ten Commandments" subtitle="" image="/images/confessions/luther-portrait-cranach.jpg" method="fill" options="800x800 Top webp q80" >}}
 
-  {{< card link="/boc/large-catechism/apostles-creed/" title="The Apostle's Creed" subtitle="" image="/images/munchen-resurrection.jpg" method="fill" options="800x800 Top webp q80" >}}
+  {{< card link="/confessions/large-catechism/apostles-creed/" title="The Apostle's Creed" subtitle="" image="/images/confessions/munchen-resurrection.jpg" method="fill" options="800x800 Top webp q80" >}}
 
-  {{< card link="/boc/large-catechism/the-lords-prayer" title="The Lord's Prayer" subtitle="" image="/images/martyrs-last-prayer.jpg" method="fill" options="800x800 Top webp q80" >}}
+  {{< card link="/confessions/large-catechism/the-lords-prayer" title="The Lord's Prayer" subtitle="" image="/images/confessions/martyrs-last-prayer.jpg" method="fill" options="800x800 Top webp q80" >}}
 
-  {{< card link="/boc/large-catechism/baptism" title="Holy Baptism" subtitle="" image="/images/samaritan.jpg" method="fill" options="800x800 Top webp q80" >}}
+  {{< card link="/confessions/large-catechism/baptism" title="Holy Baptism" subtitle="" image="/images/confessions/samaritan.jpg" method="fill" options="800x800 Top webp q80" >}}
 
-  {{< card link="/boc/large-catechism/holy-communion/" title="Holy Communion" subtitle="" image="/images/the-prodigal-son.jpg" method="fill" options="800x800 Top webp q80" >}}
+  {{< card link="/confessions/large-catechism/holy-communion/" title="Holy Communion" subtitle="" image="/images/confessions/the-prodigal-son.jpg" method="fill" options="800x800 Top webp q80" >}}
 
 {{< /cards >}}
 

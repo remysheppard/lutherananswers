@@ -22,11 +22,11 @@ module:
 menu:
   main:
     - name: Answers
-      pageRef: /Answers
+      pageRef: /answers
       weight: 3 
 
     - name: Confessions
-      pageRef: /boc
+      pageRef: /confessions
       weight: 2
 
     - name: Search
