@@ -2,6 +2,7 @@
 Title: The Apology of the Augsburg Confession
 weight: 4
 type: docs
+feature: images/confessions/lamb-of-god.jpg
 ---
 
 {{< cards >}}

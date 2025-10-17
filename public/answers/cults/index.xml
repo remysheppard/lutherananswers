@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lutheran Answers – Various Cults</title>
+    <link>http://localhost:1313/answers/cults/</link>
+    <description>Recent content in Various Cults on Lutheran Answers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Oct 2025 20:44:34 -0400</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/answers/cults/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>The Church of Jesus Christ of Latter-Day Saints</title>
+      <link>http://localhost:1313/answers/cults/unitarians/mormons/</link>
+      <pubDate>Thu, 09 Oct 2025 20:44:34 -0400</pubDate>
+      
+      <guid>http://localhost:1313/answers/cults/unitarians/mormons/</guid>
+      <description>
+        
+        
+        &lt;p&gt;All things related to mormon theology go here.&lt;/p&gt;
+&lt;div
+  class=&#34;hextra-feature-grid hx:grid hx:sm:max-lg:grid-cols-2 hx:max-sm:grid-cols-1 hx:gap-4 hx:w-full not-prose&#34;
+  style=&#34;--hextra-feature-grid-cols: 3; &#34;
+&gt;
+
+  &lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,6 @@
 date: '2025-10-08T20:23:45-04:00'
 toc: false
 title: 'Answers Clearly Rooted In Scripture'
-subtitle: 'Heloo There.'
 ---
 Welcome to **Lutheran Answers,** an indepedent project that seeks to be the premier online resource for Christians around the world. The ultimate goal will be to have various Christian Questions and Answers, writings, sermons, and more available on this website in an easy to search and easy to use format. 
 
@@ -11,6 +10,8 @@ To start, we've gotten the entire Book of Concord online for you to search and u
 I'll be adding articles over time (including all the ones previously written). Feel free to contribute to the project!
 
 ## Answers to Christianity's Toughest Questions
+
+<span class="spacer mt-8"></span>
 
 {{< latestPosts section="answers" number="6" cols="2" >}}
 

@@ -1,8 +1,9 @@
 ---
 date: '2025-10-09T20:44:34-04:00'
+type: docs
 title: 'Are Mormons Christians?'
-subtitle: "**No, members of the church of Jesus Christ of Latter Day Saints are not Christians.**"
-feature: /images/answers/mormons.png
+subtitle: "No, members of the church of Jesus Christ of Latter-Day Saints are not Christians."
+feature: images/answers/mormons.png
 ---
 
 ![Mormons](/images/answers/mormons.png)
