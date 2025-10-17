@@ -2,6 +2,7 @@
 date: '2025-10-08T20:23:45-04:00'
 toc: false
 title: 'Answers Clearly Rooted In Scripture'
+subtitle: 'Heloo There.'
 ---
 Welcome to **Lutheran Answers,** an indepedent project that seeks to be the premier online resource for Christians around the world. The ultimate goal will be to have various Christian Questions and Answers, writings, sermons, and more available on this website in an easy to search and easy to use format. 
 
@@ -11,13 +12,7 @@ I'll be adding articles over time (including all the ones previously written). F
 
 ## Answers to Christianity's Toughest Questions
 
-{{< cards cols="2" >}}
-
-  {{< card link="/answers/christian-life/interracial-marriage/" title="Is interracial marriage sinful?" image="/images/answers/interracial-marriage.png">}}
-
-  {{< card link="/answers/eschatology/covid-19/" title="Is the COVID-19 vaccine the Mark of the Beast?" image="/images/answers/vaccine.png" >}}
-
-{{</ cards >}}
+{{< latestPosts section="answers" number="6" cols="2" >}}
 
 ## The Confessions:
 

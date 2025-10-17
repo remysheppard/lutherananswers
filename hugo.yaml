@@ -39,6 +39,8 @@ menu:
 
 params:
 
+  defaultSection: answers # Default section for shortcode.
+
   externalLinkDecoration: true
 
   navbar:
