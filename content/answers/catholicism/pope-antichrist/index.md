@@ -1,4 +1,5 @@
 ---
+type: docs
 date: '2025-10-09T20:38:18-04:00'
 title: 'Is the Pope the Anti-Christ?'
 subtitle: 'Why do many historical protestants call the pope the "Anti-Christ"?'

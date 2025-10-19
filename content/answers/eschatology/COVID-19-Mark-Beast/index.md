@@ -1,4 +1,5 @@
 ---
+type: docs
 date: '2025-10-09T18:25:06-04:00'
 title: 'Is the COVID-19 vaccine the Mark of the Beast?'
 subtitle: 'No, the COVID-19 vaccine is not the Mark of the Beast.'

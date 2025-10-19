@@ -1,4 +1,5 @@
 ---
+type: docs
 date: '2025-10-09T18:06:43-04:00'
 title: 'Does the Bible condemn interracial marriage?'
 subtitle: 'The Bible does not condemn interracial marriage.'

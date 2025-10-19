@@ -10,7 +10,7 @@
   {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
 >
 
-  {{ range first $number (where site.RegularPages "Section" $section) }}
+  {{ range first $number (where site.RegularPages "Section" $section ) }}
 
     {{- $feature := (resources.Get .Params.feature) | default (resources.Get "images/default.png") -}}
     <a

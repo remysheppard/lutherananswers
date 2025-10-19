@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lutheran Answers – Various Cults</title>
+    <title>Lutheran Answers – Cults</title>
     <link>http://localhost:1313/answers/cults/</link>
-    <description>Recent content in Various Cults on Lutheran Answers</description>
+    <description>Recent content in Cults on Lutheran Answers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -15,21 +15,32 @@
     
     
     <item>
-      <title>The Church of Jesus Christ of Latter-Day Saints</title>
-      <link>http://localhost:1313/answers/cults/unitarians/mormons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Mormons</title>
+      <link>http://localhost:1313/answers/cults/mormons/</link>
+      <pubDate>Thu, 09 Oct 2025 20:44:34 -0400</pubDate>
       
-      <guid>http://localhost:1313/answers/cults/unitarians/mormons/</guid>
+      <guid>http://localhost:1313/answers/cults/mormons/</guid>
       <description>
         
         
         &lt;p&gt;All things related to mormon theology go here.&lt;/p&gt;
+&lt;div class=&#34;my-8&#34;&gt;&amp;nbsp;&lt;/div&gt;
 &lt;div
   class=&#34;hextra-feature-grid hx:grid hx:sm:max-lg:grid-cols-2 hx:max-sm:grid-cols-1 hx:gap-4 hx:w-full not-prose&#34;
-  style=&#34;--hextra-feature-grid-cols: 3; &#34;
+  style=&#34;--hextra-feature-grid-cols: 2; &#34;
 &gt;
 
-  &lt;/div&gt;
+  &lt;a
+      href=&#34;http://localhost:1313/answers/cults/mormons/are-mormons-christians/&#34;
+      style=&#34;background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));&#34;
+      class=&#34;hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] hextra-feature-card not-prose hx:block hx:relative hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:hover:border-gray-300 hx:dark:border-neutral-800 hx:dark:hover:border-neutral-700 hx:before:pointer-events-none hx:before:absolute hx:before:inset-0 hx:before:bg-glass-gradient&#34;
+      &gt;
+      &lt;div class=&#34;hx:relative hx:w-full hx:p-6&#34;&gt;
+        &lt;h3 class=&#34;hx:text-2xl hx:font-medium hx:leading-6 hx:mb-2 hx:flex hx:items-center&#34;&gt;
+          &lt;span&gt;Are Mormons Christians?&lt;/span&gt;
+        &lt;/h3&gt;&lt;p class=&#34;hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:leading-6 font-bold&#34;&gt;No, members of the church of Jesus Christ of Latter-Day Saints are not Christians.&lt;/p&gt;&lt;/div&gt;&lt;img src=&#34;http://localhost:1313/images/answers/mormons_hu_885d795bc61e5418.webp&#34; class=&#34;hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80&#34; alt=&#34;Are Mormons Christians?&#34; /&gt;
+
+    &lt;/a&gt;&lt;/div&gt;
 
       </description>
     </item>
