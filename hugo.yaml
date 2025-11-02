@@ -23,11 +23,15 @@ menu:
   main:
     - name: Answers
       pageRef: /answers
-      weight: 3 
+      weight: 1 
 
     - name: Confessions
       pageRef: /confessions
       weight: 2
+
+    - name: Big Craig
+      pageRef: /big-Craig
+      weight: 3
 
     - name: Search
       params:
