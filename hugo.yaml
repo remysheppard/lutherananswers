@@ -1,5 +1,6 @@
 baseURL: https://www.lutherananswers.com/
-languageCode: en-us
+language:
+  locale: en-us
 title: Lutheran Answers
 
 caches:
