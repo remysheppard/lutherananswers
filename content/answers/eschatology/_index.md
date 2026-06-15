@@ -8,4 +8,4 @@ A lot of people have questions about the *End Times*. This section will serve to
 
 {{< spacer height="8" >}}
 
-{{< sectionPages number="8" >}}
+{{< sectionPages number="8" cols="2">}}

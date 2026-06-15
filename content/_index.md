@@ -10,7 +10,17 @@ Welcome to **Lutheran Answers,** an indepedent project that seeks to be the prem
 
 To start, we've gotten the entire Book of Concord online for you to search and use.
 
-I'll be adding articles over time (including all the ones previously written). Feel free to contribute to the project!
+I'll be adding articles over time (including all the ones previously written). Feel free to contribute to the project by emailing me [contac@lutherananswers.com](mailto:contact@lutherananswers.com)
+
+### Subscribe to the Newsletter!
+
+<span class="spacer mt-8"></span>
+
+<iframe
+  scrolling="no"
+  style="width:100%;height:310px;border:1px #010 solid:background:inherit; border-radius: 1em;"
+  src="https://buttondown.com/LutheranAnswers?as_embed=true"
+></iframe>
 
 ## Answers to Christianity's Toughest Questions
 
@@ -18,11 +28,11 @@ I'll be adding articles over time (including all the ones previously written). F
 
 {{< latestPosts section="answers" number="6" cols="2" >}}
 
-## The Confessions:
+## The Lutheran Confessions:
 
 <span class="spacer mt-8"></span>
 
-{{< hextra/feature-grid cols="3" >}}
+{{< hextra/feature-grid cols="2" >}}
 
   {{< hextra/feature-card 
     link="/confessions/preface" 

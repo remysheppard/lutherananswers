@@ -31,6 +31,7 @@ menu:
       weight: 2
 
     - name: Big Craig
+      pre: '<i class="fa-thin fa-microchip-ai"></i>'
       pageRef: /big-Craig
       weight: 3
 
