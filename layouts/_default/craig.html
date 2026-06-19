@@ -8,7 +8,7 @@
 
 {{ $bigCraig := $img.Resize "100x webp q90" }}
 
-{{ $responses := index .Site.Data "big-craig" }}
+{{ $responses := index hugo.Data "big-craig" }}
 
   <div class='hx:mx-auto hx:flex hextra-max-page-width'>
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}

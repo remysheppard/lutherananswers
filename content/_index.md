@@ -16,11 +16,17 @@ I'll be adding articles over time (including all the ones previously written). F
 
 <span class="spacer mt-8"></span>
 
-<iframe
-  scrolling="no"
-  style="width:100%;height:310px;border:1px #010 solid:background:inherit; border-radius: 1em;"
-  src="https://buttondown.com/LutheranAnswers?as_embed=true"
-></iframe>
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/LutheranAnswers"
+  method="post"
+  class="embeddable-buttondown-form flex-col mx-4 p-4 border-1-black dark:border-color-white"
+>
+  <label for="metadata__f_name" class="block font-bold">First Name?</label>
+  <input type="text" name="metadata__f_name" id="f_name" class="block border-1 rounded dark:bg-zinc-700 bg-gray-300" />
+  <label for="bd-email" class="block font-bold">Enter your email</label>
+  <input type="email" name="email" id="bd-email" class="block border-1 rounded dark:bg-zinc-700 bg-gray-300" />
+  <input type="submit" value="Subscribe" class="block bg-indigo-900 hover:bg-indigo-700 hover:cursor-pointer text-white font-bold my-4 py-2 px-4 rounded" />
+</form>
 
 ## Answers to Christianity's Toughest Questions
 
