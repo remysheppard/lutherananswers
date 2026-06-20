@@ -30,6 +30,10 @@ menu:
       pageRef: /confessions
       weight: 2
 
+    - name: Merch
+      pageRef: /
+      weight: 4
+
     - name: Big Craig
       pre: '<i class="fa-thin fa-microchip-ai"></i>'
       pageRef: /big-Craig
