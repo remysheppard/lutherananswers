@@ -4,7 +4,6 @@ weight: 1
 type: docs
 prev: /boc/ecumenical-creeds/
 next: /boc/ecumenical-creeds/nicene-creed/
-feature: /confessions/apostles-creed.webp
 ---
 
 I believe in God the Father Almighty, Maker of heaven and earth.

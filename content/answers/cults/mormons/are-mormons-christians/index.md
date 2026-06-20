@@ -4,6 +4,7 @@ type: docs
 title: 'Are Mormons Christians?'
 subtitle: "No, members of the church of Jesus Christ of Latter-Day Saints are not Christians."
 feature: images/answers/mormons.png
+tags: ['LDS', 'Mormons']
 ---
 
 ![Mormons](/images/answers/mormons.png)

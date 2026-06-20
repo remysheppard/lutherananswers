@@ -14,19 +14,30 @@ I'll be adding articles over time (including all the ones previously written). F
 
 ### Subscribe to the Newsletter!
 
-<span class="spacer mt-8"></span>
+Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today to get new articles, podcast episodes, and devotionals from Lutheran Answers sent straight to your inbox, free.
 
+<span class="spacer mt-8"></span>
+<style>
+  button:hover {
+    cursor: pointer;
+    background-color: red
+  }
+</style>
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/LutheranAnswers"
   method="post"
-  class="embeddable-buttondown-form flex-col mx-4 p-4 border-1-black dark:border-color-white"
+  class="embeddable-buttondown-form"
+  style="flex-direction: column; width:100%;"
 >
-  <label for="metadata__f_name" class="block font-bold">First Name?</label>
-  <input type="text" name="metadata__f_name" id="f_name" class="block border-1 rounded dark:bg-zinc-700 bg-gray-300" />
-  <label for="bd-email" class="block font-bold">Enter your email</label>
-  <input type="email" name="email" id="bd-email" class="block border-1 rounded dark:bg-zinc-700 bg-gray-300" />
-  <input type="submit" value="Subscribe" class="block bg-indigo-900 hover:bg-indigo-700 hover:cursor-pointer text-white font-bold my-4 py-2 px-4 rounded" />
+  <label for="metadata__f_name" style="display: block; font-weight: 700;"><i class="fa-duotone fa-light fa-user"></i>&nbsp;First Name? (optional)</label>
+  <input type="text" name="metadata__f_name" id="f_name" style="display: block; border-radius: 0.25rem; background-color: inherit; border: 1px solid;padding:2px;width:300px;max-width:100%" />
+  <br />
+  <label for="bd-email" style="display: block; font-weight: 700;"><i class="fa-duotone fa-thin fa-envelope"></i>&nbsp;E-mail?</label>
+  <input type="email" name="email" id="bd-email" style="display: block; border-radius: 0.25rem; background-color: inherit; border: 1px solid;padding:2px;width:300px;max-width:100%" />
+  <button type="submit" value="Subscribe" style="display: block; padding-top: 0.5rem;padding-bottom: 0.5rem; padding-left: 1rem;padding-right: 1rem; margin-top: 1rem;margin-bottom: 1rem; border-radius: 0.25rem; font-weight: 700; color: #ffffff; background-color: #c9a227;width:300px;max-width:100%">Subscribe Today!&nbsp;<i class="fa-solid fa-paper-plane"></i></button>
 </form>
+
+
 
 ## Answers to Christianity's Toughest Questions
 
@@ -53,7 +64,7 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card
 		link="/confessions/ecumenical-creeds"
 		title="The Three Ecumenical Creeds"
-		image="confessions/jesus-king.jpg"
+    image="confessions/jesus-king.webp" 
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -62,8 +73,8 @@ I'll be adding articles over time (including all the ones previously written). F
 
   {{< hextra/feature-card
 		link="/confessions/augsburg-confession"
-		title="The Augsburg Confession"
-		image="confessions/luther-worms.jpg"
+		title="The Augsburg Confession" 
+    image="confessions/luther-worms.webp" 
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -73,7 +84,7 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card 
     link="/confessions/apology" 
     title="The Apology" 
-    image="confessions/jesus-healing.jpg" 
+    image="confessions/jesus-healing.webp" 
     subtitle="of The Augsburg Confession"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -83,7 +94,7 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card
 		link="/confessions/smalcald-articles"
 		title="The Smalcald Articles"
-		image="confessions/good-shepherd.jpg"
+    image="confessions/good-shepherd.webp" 
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -93,8 +104,8 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card
 		link="/confessions/power-and-primacy"
 		title="The Power & Primacy"
-		image="confessions/luther-concord.jpg"
-    subtitle="" 
+    image="confessions/luther-concord.webp"
+    subtitle="A Treatise on the Power & Primacy of the Pope" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
@@ -103,8 +114,8 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card 
     link="/confessions/small-catechism" 
     title="Luther's Small Catechism" 
-    image="confessions/luther.jpg"
-    subtitle="" 
+    image="confessions/luther.webp"
+    subtitle="As the head of the household should teach his family." 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
@@ -113,7 +124,7 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card 
     link="/confessions/large-catechism" 
     title="Luther's Large Catechism" 
-    image="confessions/large-catechism.png"
+    image="confessions/large-catechism.webp"
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -123,18 +134,8 @@ I'll be adding articles over time (including all the ones previously written). F
   {{< hextra/feature-card
     link="/confessions/formula/"
     title="The Formula of Concord"
-    image="confessions/adultery-4.jpg"
-    subtitle="" 
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
-  >}}
-
-  {{< hextra/feature-card
-    link="/confessions/testimonies/" 
-    title="Appendix" 
-    subtitle="The Catalogue of Testimonies" 
-    image="confessions/luther-portrait-cranach.jpg"
+    image="confessions/adultery-4.webp"
+    subtitle="The Epitome & Solid Declaration" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  

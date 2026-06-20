@@ -212,13 +212,34 @@
     <loc>http://localhost:1313/confessions/formula/solid-declaration/other-sects/</loc>
     <lastmod>2025-10-09T18:19:38-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/cryptid/</loc>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/genesis/</loc>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nephilim/</loc>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/supernatural/</loc>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/answers/basics/who-were-the-nephilim/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/answers/cults/jehovahs-witnesses/what-does-bible-chronology-indicate-about-the-year-1914/</loc>
     <lastmod>2026-06-15T18:38:28-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/answers/cults/mormons/are-mormons-christians/</loc>
+    <lastmod>2025-10-19T09:05:48-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lds/</loc>
+    <lastmod>2025-10-19T09:05:48-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mormons/</loc>
     <lastmod>2025-10-19T09:05:48-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/answers/catholicism/pope-antichrist/</loc>
@@ -233,8 +254,11 @@
     <loc>http://localhost:1313/answers/</loc>
     <lastmod>2025-10-19T09:05:48-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/articles/</loc>
+    <lastmod>2025-10-08T20:23:52-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-15T19:17:33-04:00</lastmod>
+    <lastmod>2026-06-19T19:36:53-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -258,8 +282,6 @@
   </url><url>
     <loc>http://localhost:1313/answers/catholicism/</loc>
     <lastmod>2025-10-19T09:05:48-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/confessions/</loc>
     <lastmod>2026-06-15T19:17:33-04:00</lastmod>

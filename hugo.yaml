@@ -29,25 +29,54 @@ menu:
     - name: Confessions
       pageRef: /confessions
       weight: 2
+    
+    - name: Articles
+      pageRef: /Articles
+      weight: 3
 
-    - name: Merch
-      pageRef: /
-      weight: 4
+#    - name: Merch
+#      pageRef: /
+#      weight: 4
+
+    - name: Newsletter
+      url: https://buttondown.com/lutherananswers
+      weight: 5
 
     - name: Big Craig
       pre: '<i class="fa-thin fa-microchip-ai"></i>'
       pageRef: /big-Craig
-      weight: 3
+      weight: 6
 
     - name: Search
       params:
         type: search
 
+    - name: X
+      url: https://x.com/lutherananswers
+      params:
+        icon: x-twitter
+    
+    - name: youtube
+      url: https://www.youtube.com/@lutherananswers
+      params:
+        icon: youtube
+
     - name: Theme Toggle
       params:
         type: theme-toggle
 
+outputs:
+  page: [html, markdown]
+  section: [html, rss, markdown]
+
 params:
+
+  blog:
+    list:
+      displayTags: true
+  
+  toc:
+    displayTags: true
 
   defaultSection: answers # Default section for shortcode.
 
@@ -64,8 +93,15 @@ params:
       height: 60
 
   page:
-      # full (100%), wide (90rem), normal (1280px)
-      width: wide
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
+
+    contextMenu:
+      enable: true
+      links:
+      - name: "Ask AI"
+        url: "/big-craig?query={markdown_url}"
+        icon: "sparkles"
 
   footer:
     displayCopyright: true

@@ -3,6 +3,7 @@ title: The Book of Concord Online
 ---
 <span class="spacer mt-8"></span>
 
+
 {{< hextra/feature-grid cols="2" >}}
 
   {{< hextra/feature-card 
@@ -18,7 +19,7 @@ title: The Book of Concord Online
   {{< hextra/feature-card
 		link="/confessions/ecumenical-creeds"
 		title="The Three Ecumenical Creeds"
-		image="/confessions/jesus-king.jpg"
+    image="/confessions/jesus-king.webp" 
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -27,8 +28,8 @@ title: The Book of Concord Online
 
   {{< hextra/feature-card
 		link="/confessions/augsburg-confession"
-		title="The Augsburg Confession"
-		image="/confessions/luther-worms.jpg"
+		title="The Augsburg Confession" 
+    image="/confessions/luther-worms.webp" 
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -38,7 +39,7 @@ title: The Book of Concord Online
   {{< hextra/feature-card 
     link="/confessions/apology" 
     title="The Apology" 
-    image="/confessions/jesus-healing.jpg" 
+    image="/confessions/jesus-healing.webp" 
     subtitle="of The Augsburg Confession"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -48,7 +49,7 @@ title: The Book of Concord Online
   {{< hextra/feature-card
 		link="/confessions/smalcald-articles"
 		title="The Smalcald Articles"
-		image="/confessions/good-shepherd.jpg"
+    image="/confessions/good-shepherd.webp" 
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -58,8 +59,8 @@ title: The Book of Concord Online
   {{< hextra/feature-card
 		link="/confessions/power-and-primacy"
 		title="The Power & Primacy"
-		image="/confessions/luther-concord.jpg"
-    subtitle="" 
+    image="/confessions/luther-concord.webp"
+    subtitle="A Treatise on the Power & Primacy of the Pope" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
@@ -68,8 +69,8 @@ title: The Book of Concord Online
   {{< hextra/feature-card 
     link="/confessions/small-catechism" 
     title="Luther's Small Catechism" 
-    image="/confessions/luther.jpg"
-    subtitle="" 
+    image="/confessions/luther.webp"
+    subtitle="As the head of the household should teach his family." 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
@@ -78,7 +79,7 @@ title: The Book of Concord Online
   {{< hextra/feature-card 
     link="/confessions/large-catechism" 
     title="Luther's Large Catechism" 
-    image="/confessions/large-catechism.png"
+    image="/confessions/large-catechism.webp"
     subtitle="" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
@@ -88,18 +89,8 @@ title: The Book of Concord Online
   {{< hextra/feature-card
     link="/confessions/formula/"
     title="The Formula of Concord"
-    image="/confessions/adultery-4.jpg"
-    subtitle="" 
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
-  >}}
-
-  {{< hextra/feature-card
-    link="/confessions/testimonies/" 
-    title="Appendix" 
-    subtitle="The Catalogue of Testimonies" 
-    image="/confessions/luther-portrait-cranach.jpg"
+    image="/confessions/adultery-4.webp"
+    subtitle="The Epitome & Solid Declaration" 
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] rounded-md hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  

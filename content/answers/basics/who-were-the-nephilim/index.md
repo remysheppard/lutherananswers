@@ -4,6 +4,7 @@ subtitle: "Five Reasons to Prefer the Human Genealogical Interpretation of Genes
 date: 2026-06-16
 type: docs
 feature: ""
+tags: ['Nephilim', 'Supernatural', 'Genesis', 'Cryptid']
 ---
 
 ## Introduction
