@@ -33,7 +33,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/baptism-2.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/baptism-2.webp&#34;
         
         
         
@@ -48,7 +48,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/flight-to-egypt.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/flight-to-egypt.webp&#34;
         
         
         
@@ -63,7 +63,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/adultery-2.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/adultery-2.webp&#34;
         
         
         
@@ -78,7 +78,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/resurrection-4.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/resurrection-4.webp&#34;
         
         
         
@@ -93,7 +93,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/man-of-sorrows-4.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/man-of-sorrows-4.webp&#34;
         
         
         
@@ -108,7 +108,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/christ-triumphant.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/christ-triumphant.webp&#34;
         
         
         
@@ -123,7 +123,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/resurrection-7.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/resurrection-7.webp&#34;
         
         
         
@@ -138,7 +138,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/last-supper.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/last-supper.webp&#34;
         
         
         
@@ -153,7 +153,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/man-of-sorrows.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/man-of-sorrows.webp&#34;
         
         
         
@@ -168,7 +168,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/harrowing-of-hell-2.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/harrowing-of-hell-2.webp&#34;
         
         
         
@@ -183,7 +183,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/baptism-6.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/baptism-6.webp&#34;
         
         
         
@@ -198,7 +198,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/flight-to-egypt-4.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/flight-to-egypt-4.webp&#34;
         
         
         
@@ -213,7 +213,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/john-calvin.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/john-calvin.webp&#34;
         
         
         
@@ -245,7 +245,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/baptism-3.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/baptism-3.webp&#34;
         
         
         
@@ -260,7 +260,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/resurrection-3.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/resurrection-3.webp&#34;
         
         
         
@@ -275,7 +275,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/man-of-sorrows-4.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/man-of-sorrows-4.webp&#34;
         
         
         
@@ -290,7 +290,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/lazarus-1.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/lazarus-1.webp&#34;
         
         
         
@@ -305,7 +305,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/champaigne-the-christ.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/champaigne-the-christ.webp&#34;
         
         
         
@@ -320,7 +320,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/christ-supported-by-angels.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/christ-supported-by-angels.webp&#34;
         
         
         
@@ -335,7 +335,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/adultery-1.jpeg&#34;
+        src=&#34;http://localhost:1313/confessions/adultery-1.jpeg&#34;
         
         
         
@@ -350,7 +350,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/flight-to-egypt-3.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/flight-to-egypt-3.webp&#34;
         
         
         
@@ -365,7 +365,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/last-supper.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/last-supper.webp&#34;
         
         
         
@@ -380,7 +380,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/man-of-sorrows-7.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/man-of-sorrows-7.webp&#34;
         
         
         
@@ -395,7 +395,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/harrowing-of-hell.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/harrowing-of-hell.webp&#34;
         
         
         
@@ -410,7 +410,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/baptism-8.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/baptism-8.webp&#34;
         
         
         
@@ -425,7 +425,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/trinity-baptism.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/trinity-baptism.webp&#34;
         
         
         
@@ -440,7 +440,7 @@
         class=&#34;hextra-card-image&#34;
         loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
-        src=&#34;http://localhost:1313/images/confessions/john-calvin.jpg&#34;
+        src=&#34;http://localhost:1313/confessions/john-calvin.webp&#34;
         
         
         

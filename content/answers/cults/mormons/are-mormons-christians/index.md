@@ -7,10 +7,6 @@ feature: images/answers/mormons.png
 tags: ['LDS', 'Mormons']
 ---
 
-![Mormons](/images/answers/mormons.png)
-
-**No, members of the Church of Jesus Christ of Latter Day Saints are not Christians.**
-
 Many Mormons are under the impression that they are the true Christians who have joined the true church of Jesus Christ as restored by Joseph Smith after a great apostasy.
 
 This, however, couldn’t be further from the truth. Mormons are actually members of a heretical non-Christian cult and are destined for eternity in Outer Darkness if they do not repent.

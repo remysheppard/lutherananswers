@@ -1,5 +1,4 @@
 # Is the Pope the Anti-Christ?
-![Is the Pope the Anti-Christ?](/images/answers/pope.png)
 
 Calling the pope the antichrist can be a pretty divisive statement. It’s the kind of opinion that many would refrain from speaking out loud because it may put off a Catholic friend. I admit that it is a pretty incendiary thing to say, but it is a thing that must be said nonetheless.
 

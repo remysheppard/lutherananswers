@@ -1,5 +1,4 @@
 # Is the COVID-19 vaccine the Mark of the Beast?
-![COVID-19](/images/answers/vaccine.png)
 
 ## Understanding Revelation
 

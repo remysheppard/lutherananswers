@@ -97,7 +97,7 @@ params:
     width: wide
 
     contextMenu:
-      enable: true
+      enable: false
       links:
       - name: "Ask AI"
         url: "/big-craig?query={markdown_url}"

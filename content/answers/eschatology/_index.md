@@ -1,7 +1,7 @@
 ---
 type: docs
 title: "Eschatology"
-
+feature: /images/answers/eschatology-header.jpg
 ---
 
 A lot of people have questions about the *End Times*. This section will serve to answer any questions you have about *Eschatology*, or "The Study of the End of Things."
