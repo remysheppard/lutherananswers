@@ -221,37 +221,8 @@ var refTagger = {
 
 
 <div class="hx:mx-auto hx:flex hextra-max-page-width">
-    <aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:sticky">
-    <div class="hx:px-4 hx:pt-4 hx:md:hidden">
-      <div class="hextra-search-wrapper hx:relative hx:md:w-64">
-  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
-    <input
-      placeholder="Search..."
-      aria-label="Search..."
-      class="hextra-search-input hx:hextra-focus-visible hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus-visible:bg-white hx:dark:focus-visible:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
-      type="search"
-      autocomplete="off"
-      value=""
-      spellcheck="false"
-    />
-    <kbd
-      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
-    >
-      CTRL K
-    </kbd>
-  </div>
-
-  <div>
-    <ul
-      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
-      aria-label="Search results"
-      style="transition: max-height 0.2s ease 0s;"
-    ></ul>
-    <div class="hextra-search-status hx:sr-only" aria-live="polite" role="status"></div>
-  </div>
-</div>
-
-    </div><div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-[var(--hextra-navbar-height)] hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:sticky">
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--hextra-navbar-height)-var(--menu-height))]">
     <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
       
       
@@ -261,17 +232,83 @@ var refTagger = {
       href="/answers/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Answers</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Answers</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
         <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/answers/frequently-asked/"
+      
+    >
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.--><path d="M416 32L32 32L32 368L128 368L128 448L240 368L416 368L416 32zM224 438.4L224 528L400 528L512 608L512 528L608 528L608 192L464 192L464 416L255.4 416L224 438.4zM224 140C209.6 140 197.9 151.7 197.9 166.1L157.9 166.1C157.9 129.6 187.5 100 224 100C260.5 100 290.1 129.6 290.1 166.1C290.1 195.8 272.4 213 256.8 221.7C252.3 224.2 247.9 226.1 243.9 227.6L243.9 244L203.9 244L203.9 194.6C205.7 194.4 207.5 194.2 209.3 194C219 192.9 228.3 191.9 237.2 186.9C244.7 182.7 250.1 176.8 250.1 166.1C250.1 151.7 238.4 140 224 140zM204 268L244 268L244 308L204 308L204 268z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">General Quesions</span>
+      </span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/answers/frequently-asked/who-were-the-nephilim/"
+      
+    >
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Nephilim Were Not Supernatural Beings</span>
+      </span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/answers/christian-living/"
+      
+    >
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path opacity=".4" d="M64 229.1L64 231.7C64 255.4 70.3 279.8 80.8 304L193.1 304C217.5 255.1 235.4 219.4 246.7 196.8C256.4 214 281.4 258.4 321.7 330.1C353.6 282.2 374.4 251.1 384 236.7C396.5 255.4 411.4 277.9 428.8 304L559.1 304C569.7 279.8 576 255.4 576 231.7L576 229.1C576 155.6 516.4 96 442.9 96C400.2 96 360 116.5 335 151.1L320 171.8L305 151.1C280 116.5 239.9 96 197.1 96C123.6 96 64 155.6 64 229.1zM107.2 352C180.2 463.6 320 560 320 560C320 560 459.8 463.6 532.8 352L403.2 352C399.3 346.1 392.9 336.5 384 323.3C350.9 372.9 329 405.8 318.3 421.9C310.6 408.2 287.6 367.3 249.3 299.2C233.9 330 225.1 347.6 222.9 352L107.2 352z"/><path d="M107.2 352C96.9 336.2 87.9 320.1 80.8 304L193.1 304C217.5 255.1 235.4 219.4 246.7 196.8C256.4 214 281.4 258.4 321.7 330.1C353.6 282.2 374.4 251.1 384 236.7C396.5 255.4 411.4 277.9 428.8 304L559.1 304C552 320.1 543.1 336.2 532.7 352L403.1 352C399.2 346.1 392.8 336.5 383.9 323.3C350.8 372.9 328.9 405.8 318.2 421.9C310.5 408.2 287.5 367.3 249.2 299.2C233.8 330 225 347.6 222.8 352L107.2 352z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Christian Living</span>
+      </span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/answers/christian-living/marriage/"
+      
+    >
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path opacity=".4" d="M158.1 112C158.4 111.4 164.9 98.3 177.7 72.8L182.1 64L297.9 64C298.9 66 305.7 79.6 318.3 104.8L321.9 112L318.3 119.2L293.7 168.4C285.2 165.7 276.5 163.6 267.5 162.2C263 161.5 258.5 161 253.9 160.6C251.6 160.4 249.3 160.3 247 160.2C244.7 160.1 242.3 160.1 240 160.1C221.3 160.1 203.2 163 186.3 168.4L161.7 119.2L158.1 112zM224 400C224 335.6 258.5 279.3 310.1 248.7C326.9 262.2 339.8 280.5 346.6 301.6C311.7 320.6 288 357.6 288 400.1C288 462 338.1 512.1 400 512.1C461.9 512.1 512 462 512 400.1C512 361.2 492.2 327 462.1 306.9C458.4 278.5 449.4 251.8 436.1 227.8C516 244.5 576 315.3 576 400.1C576 497.3 497.2 576.1 400 576.1C344.7 576.1 295.3 550.6 263 510.6C248.2 492.3 237 471 230.5 447.7C226.2 432.4 224 416.5 224 400.1z"/><path d="M128 336C128 274.1 178.1 224 240 224C301.9 224 352 274.1 352 336C352 357.1 346.2 376.9 336 393.7L336 400C336 424 349.2 445 368.8 455.9C398.1 424.5 416 382.3 416 336C416 238.8 337.2 160 240 160C142.8 160 64 238.8 64 336C64 433.2 142.8 512 240 512C247.8 512 255.5 511.5 263 510.5C248.2 492.2 237 470.9 230.5 447.6C173.1 442.8 128 394.7 128 336z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Marriage</span>
+      </span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/answers/christian-living/marriage/interracial-marriage/"
+      
+    >
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Does the Bible condemn interracial marriage?</span>
+      </span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
       href="/answers/cults/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Cults</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.--><path opacity=".4" d="M96 272C96 266.6 96.3 261.3 96.9 256L160 256L160 288L96.9 288C96.3 282.7 96 277.4 96 272zM127.5 182.1C134.2 173.7 141.8 166.2 150.1 159.5C165.9 175.3 176.7 186.1 182.6 192L160 214.6C154.1 208.7 143.3 197.9 127.5 182.1zM127.5 361.9C143.3 346.1 154.1 335.3 160 329.4L182.6 352C176.7 357.9 165.9 368.7 150.1 384.5C141.7 377.8 134.2 370.2 127.5 361.9zM128 496L160 480L160 544L128 544L128 496zM224 128.9C229.3 128.3 234.6 128 240 128L256 128L256 192L224 192L224 128.9zM224 352L256 352L256 416L240 416C234.6 416 229.3 415.7 224 415.1L224 352zM224 480L256 480L256 544L224 544L224 480zM320 128L352 128L352 192L320 192L320 128zM320 352L352 352L352 416L320 416L320 352zM320 480L352 480L352 544L320 544L320 480zM392.3 417.1C414.1 395.3 427.3 382.1 432 377.4L454.6 400C449.9 404.7 436.7 417.9 414.9 439.7C412 428.7 403.3 420 392.3 417.1zM392.3 478.9C403.3 476 412 467.3 414.9 456.3C436.7 478.1 449.9 491.3 454.6 496L432 518.6C427.3 513.9 414.1 500.7 392.3 478.9z"/><path d="M416 80L576 144L576 208L416 272L352 224L240 224C213.5 224 192 245.5 192 272C192 298.5 213.5 320 240 320L384 320C454.7 320 512 377.3 512 448C512 518.7 454.7 576 384 576L160 576L64 528L128 496L128 544L160 544L160 480L224 480L224 544L256 544L256 480L320 480L320 544L352 544L352 480L384 480C386.9 480 389.6 479.6 392.3 478.9C414.1 500.7 427.3 513.9 432 518.6L454.6 496C449.9 491.3 436.7 478.1 414.9 456.3C415.6 453.7 416 450.9 416 448C416 445.1 415.6 442.4 414.9 439.7C436.7 417.9 449.9 404.7 454.6 400L432 377.4C427.3 382.1 414.1 395.3 392.3 417.1C389.7 416.4 386.9 416 384 416L352 416L352 352L320 352L320 416L256 416L256 352L224 352L224 415.1C196.2 412 170.8 401.1 150.1 384.5C165.9 368.7 176.7 357.9 182.6 352L160 329.4C154.1 335.3 143.3 346.1 127.5 361.9C110.9 341.2 100 315.8 96.9 288L160 288L160 256L96.9 256C100 228.2 110.9 202.8 127.5 182.1C143.3 197.9 154.1 208.7 160 214.6L182.6 192C176.7 186.1 165.9 175.3 150.1 159.5C170.8 142.9 196.2 132 224 128.9L224 192L256 192L256 128L320 128L320 192L352 192L352 128L416 80zM432 160C440.8 160 448 152.8 448 144C448 135.2 440.8 128 432 128C423.2 128 416 135.2 416 144C416 152.8 423.2 160 432 160zM448 208C448 199.2 440.8 192 432 192C423.2 192 416 199.2 416 208C416 216.8 423.2 224 432 224C440.8 224 448 216.8 448 208z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Cults</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -282,7 +319,8 @@ var refTagger = {
       href="/answers/cults/jehovahs-witnesses/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Jehovah&#39;s Witnesses</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path opacity=".4" d="M128 528L192 448L448 448L512 528L512 576L128 576L128 528z"/><path d="M128 224L128 64L224 64L224 128L272 128L272 64L368 64L368 128L416 128L416 64L512 64L512 224L448 288L448 448L192 448L192 288L128 224z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Jehovah&#39;s Witnesses</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -293,7 +331,8 @@ var refTagger = {
       href="/answers/cults/jehovahs-witnesses/what-does-bible-chronology-indicate-about-the-year-1914/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">What Does Bible Chronology Indicate About the Year 1914?</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">What Does Bible Chronology Indicate About the Year 1914?</span>
+      </span>
     </a>
   </div>
               
@@ -305,7 +344,8 @@ var refTagger = {
       href="/answers/cults/mormons/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Mormons</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M535.2 457.4C523 403.4 444.3 371.1 444.3 371.1C444.3 371.1 437.7 364.5 441 361.2C444.3 357.9 472.6 344.7 472.6 335.5C472.6 326.3 486.2 309 472.6 262.4C467.7 245.6 457.1 233.8 444.6 225.4L444.6 225.4L444.6 225.4C421.5 210 391.9 206.2 379.1 205.4L379.1 205.4L379.1 205.4C375.1 205.1 372.8 205.1 372.8 205.1L366.4 212.6C360.8 232.8 347.6 244.8 347.1 244.9C326.6 249.1 322.4 248.9 320.3 250C314.5 253 313 257.7 316.7 261.4C316.8 261.5 316.6 261.3 316.7 261.4C310.8 261.7 304.8 261.7 303.3 260.2C302.4 259.3 296.7 254.4 289 247.8L289 247.8L262.4 224.1C262 220.4 261.1 216.6 259.6 212.6C251.2 189.4 221.5 174.5 221.5 174.5C215.7 171.1 215.9 174 208.1 175.6L137.2 112.1L130 64C130 64 77.9 93.7 62.8 138.5C53.9 147.4 111.6 140.5 111.6 140.5L189.1 204.6C189.5 206.9 190 209.2 190.3 211.2C182.5 223.9 169.3 245.1 147.2 280.9C92.4 369.1 107.2 381.3 107.2 381.3L168 424.7C173.8 458.4 173.3 474.4 183.3 485.7C192.9 498.7 202.4 520.6 245.9 529.8C268 539.6 251.5 545.3 254.5 548.2C256.6 550.3 297.1 551.6 326.5 553.9L326.4 555.5C326.4 555.5 328.4 555.1 331.9 554.3C341.6 555 342.5 561.1 342.5 561.1L375.8 562.1C429.6 549.3 548.1 514.3 535.3 457.3zM193.4 347.4C190.4 344.5 189.8 340.1 193.2 333.5C209 303.2 215 251 215 251L215 251C220.1 253.7 225.9 255.5 232.4 255.5C238 255.5 242.8 254.6 246.8 253C249.7 255.2 252.7 257.5 255.7 259.8L255.7 259.8L255.7 259.8C272.9 272.9 291.7 287.4 300.9 294.7C298.1 299.1 295.3 304.4 295.3 307.2C295.3 311.6 309.6 334.1 331.3 349.4L311.7 349.4C311.7 349.4 225.5 347.9 193.3 347.5zM147.1 280.8C92.4 369.1 105.6 371.4 107.2 381.3C108.8 391.2 168 424.7 168 424.7"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Mormons</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -316,7 +356,8 @@ var refTagger = {
       href="/answers/cults/mormons/are-mormons-christians/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Are Mormons Christians?</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Are Mormons Christians?</span>
+      </span>
     </a>
   </div>
               
@@ -330,7 +371,8 @@ var refTagger = {
       href="/answers/eschatology/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Eschatology</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path opacity=".4" d="M144 384.2C144 480.5 223.6 560 320 560C416.4 560 496 480.5 496 384.2C496 364.9 492.6 345.6 486 327.5C452.1 234.3 395.2 151.1 320.5 85.8L319.9 85.3L319.3 85.8C244.8 151.1 187.9 234.2 154 327.5C147.4 345.5 144 364.9 144 384.2zM208 386.7C208 361.2 220.4 337.3 241.1 322.6C241.9 322 242.8 321.4 243.7 320.8L257.1 312.1L257.1 358.4C257.1 381.4 275.8 400.1 298.8 400.1L301.3 400.1C323 400.1 340.6 382.5 340.6 360.8C340.6 350.6 336.7 340.9 329.6 333.5L320.6 324.1C307.1 310.1 299.5 291.3 299.5 271.8C299.5 253.6 306.1 236.1 317.8 222.6C318.5 221.8 319.1 221.1 319.8 220.4C322 218.1 324.3 215.9 326.7 213.9L333.8 208L333.8 220.4C333.8 221.1 333.8 221.8 333.8 222.5C333.9 224.5 334.1 226.5 334.4 228.4C336 238 340.6 247 347.5 254.1L398.9 306.4C420.1 328 432 357.1 432 387.4C432 447.5 383.3 496.1 323.3 496.1L317.4 496.1C257 496 208 447 208 386.6z"/><path d="M128 384.2C128 363 131.7 341.8 138.9 322C173.7 226.2 232.2 140.8 308.9 73.7L320 64L331.1 73.7C407.8 140.8 466.3 226.2 501.1 322C508.3 341.9 512 363.1 512 384.2C512 489.4 425.2 576 320 576C214.8 576 128 489.4 128 384.2zM319.4 85.8C244.8 151.1 187.9 234.2 154 327.5C147.4 345.5 144 364.9 144 384.2C144 480.5 223.6 560 320 560C416.4 560 496 480.5 496 384.2C496 364.9 492.6 345.6 486 327.5C452.1 234.3 395.2 151.1 320.5 85.8L319.9 85.3L319.3 85.8zM333.7 222.5C333.8 224.5 334 226.5 334.3 228.4C335.9 238 340.5 247 347.4 254.1L398.8 306.4C420 328 431.9 357.1 431.9 387.4C431.9 447.5 383.2 496.1 323.2 496.1L317.3 496.1C256.9 496.1 207.9 447.1 207.9 386.7C207.9 361.2 220.3 337.3 241 322.6C241.8 322 242.7 321.4 243.6 320.8L257 312.1L257 358.4C257 381.4 275.7 400.1 298.7 400.1L301.2 400.1C322.9 400.1 340.5 382.5 340.5 360.8C340.5 350.6 336.6 340.9 329.5 333.5L320.5 324.1C307 310.1 299.4 291.3 299.4 271.8C299.4 253.6 306 236.1 317.7 222.6C318.4 221.8 319 221.1 319.7 220.4C321.9 218.1 324.2 215.9 326.6 213.9L333.7 208L333.7 220.4C333.7 221.1 333.7 221.8 333.7 222.5zM224 386.6C224 438.2 265.8 480 317.4 480L323.3 480C374.5 480 416 438.5 416 387.3C416 361.2 405.8 336.1 387.5 317.5L336.1 265.2C330.1 259.1 325.4 251.9 322.3 244.1C317.8 252.5 315.4 262 315.4 271.8C315.4 287.2 321.4 301.9 332 313L341 322.4C350.9 332.7 356.5 346.5 356.5 360.8C356.5 391.3 331.8 416.1 301.2 416.1L298.7 416.1C266.8 416.1 241 390.3 241 358.4L241 343.7C230.1 355.2 223.9 370.6 223.9 386.7z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Eschatology</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -341,40 +383,8 @@ var refTagger = {
       href="/answers/eschatology/covid-19-mark-beast/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Is the COVID-19 vaccine the Mark of the Beast?</span>
-    </a>
-  </div>
-              
-            </li></ul>
-      </div>
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/answers/basics/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">General Quesions</span>
-    </a>
-      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
-  </div>
-              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/answers/basics/who-were-the-nephilim/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">The Nephilim Were Not Supernatural Beings</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/answers/basics/interracial-marriage/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Does the Bible condemn interracial marriage?</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Is the COVID-19 vaccine the Mark of the Beast?</span>
+      </span>
     </a>
   </div>
               
@@ -386,7 +396,8 @@ var refTagger = {
       href="/answers/catholicism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Roman Catholicism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 xmlns="http://www.w3.org/2000/svg" fill=currentColor viewBox="0 0 512 512"><!--!Font Awesome Pro 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M229.6 265.5l-44.4 44.4c-3.1 3.1-3.4 8-.8 11.5c12.3 16.3 19.6 35.2 21 54.7c1.8 25.7-6.6 49.3-23.9 66.6s-40.9 25.7-66.6 23.9c-24.4-1.7-47.9-12.7-66.1-31s-29.2-41.7-31-66.1c-1.8-25.7 6.7-49.3 23.9-66.6s40.9-25.7 66.6-23.9c19.5 1.4 38.4 8.7 54.7 21c3.5 2.7 8.4 2.3 11.5-.8l44.4-44.4c3.4-3.4 3.4-9 0-12.4s-9-3.4-12.4 0l-39.2 39.2c-17.5-11.7-37.4-18.6-57.8-20.1c-30.9-2.2-59.4 8.1-80.3 29S-1.9 339.9 .3 370.8c2 28.6 14.9 56.1 36.1 77.3s48.7 34 77.3 36.1c2.7 .2 5.5 .3 8.2 .3c27.7 0 53.1-10.2 72.1-29.3c20.9-20.9 31.2-49.4 29-80.3c-1.5-20.4-8.4-40.3-20.1-57.8l39.2-39.2c3.4-3.4 3.4-9 0-12.4s-9-3.4-12.4 0zM52.3 313.6c-14.1 14.1-21 33.6-19.5 54.9c1.5 20.8 10.9 40.9 26.6 56.6s35.7 25.1 56.6 26.6c1.9 .1 3.8 .2 5.7 .2c19 0 36.3-6.9 49.2-19.7c14.1-14.1 21-33.6 19.5-54.9c-1.5-20.8-10.9-40.9-26.6-56.6c-32.7-32.7-82.7-35.8-111.4-7.1zM158.4 419.7c-21.9 21.9-60.8 18.8-86.6-7.1s-29-64.7-7.1-86.6c9.8-9.8 23-14.6 36.8-14.6c17.2 0 35.5 7.4 49.8 21.6c12.7 12.7 20.3 28.8 21.5 45.4c1.2 16.1-4 30.8-14.4 41.2zM410.6 261.2c-2.7 0-5.4 .1-8.1 .3c-20.4 1.5-40.3 8.4-57.8 20.1l-53.2-53.2 70.2-70.2 68.4 68.4c3.4 3.4 9 3.4 12.4 0l66.9-66.9c3.4-3.4 3.4-9 0-12.4L441 78.9l9.7-9.7c8.1-8.1 8.1-21.4 0-29.5l-6-6c-3.9-3.9-9.2-6.1-14.8-6.1s-10.8 2.2-14.8 6.1L256 193 96.7 33.7c-3.9-3.9-9.2-6.1-14.8-6.1s-10.8 2.2-14.8 6.1l-6 6c-3.9 3.9-6.1 9.2-6.1 14.8s2.2 10.8 6.1 14.8l9.7 9.7L2.6 147.2c-1.6 1.6-2.6 3.9-2.6 6.2s.9 4.6 2.6 6.2L36 193.1s0 0 0 0s0 0 0 0l33.5 33.5c3.4 3.4 9 3.4 12.4 0l68.4-68.4 158.8 158.8c-11.7 17.5-18.6 37.4-20.1 57.8c-2.2 30.9 8.1 59.4 29 80.3c18.9 18.9 44.5 29.3 72.1 29.3c2.7 0 5.4-.1 8.1-.3c28.6-2 56.1-14.9 77.3-36.1s34-48.7 36.1-77.3c2.2-30.9-8.1-59.4-29-80.3c-18.9-18.9-44.5-29.3-72.1-29.3zM427.7 46.1c.8-.8 1.8-1 2.3-1s1.5 .1 2.3 1l6 6c1.3 1.3 1.3 3.4 0 4.7l-15.9 15.9-33 33c-3.4 3.4-3.4 9 0 12.4c1.7 1.7 4 2.6 6.2 2.6s4.5-.9 6.2-2.6l26.8-26.8 62.2 62.2-21 21L447 151.8l4.3-4.3c3.4-3.4 3.4-9 0-12.4s-9-3.4-12.4 0l-4.3 4.3-6.2-6.2c-3.4-3.4-9-3.4-12.4 0s-3.4 9 0 12.4l6.2 6.2-4.3 4.3c-3.4 3.4-3.4 9 0 12.4c1.7 1.7 4 2.6 6.2 2.6s4.5-.9 6.2-2.6l4.3-4.3 22.7 22.7-21 21-62.2-62.2 4.8-4.8c3.4-3.4 3.4-9 0-12.4s-9-3.4-12.4 0l-11 11s0 0 0 0L279.1 216l-10.6-10.6L427.7 46.1zm66.5 323.4c-1.7 24.4-12.7 47.9-31 66.1s-41.7 29.2-66.1 31c-2.3 .2-4.6 .2-6.9 .2c-22.9 0-44.1-8.6-59.7-24.1c-17.2-17.2-25.7-40.9-23.9-66.6c1.4-19.5 8.7-38.4 21-54.7c2.7-3.5 2.3-8.4-.8-11.5L156.5 139.6l-11-11c-3.4-3.4-9-3.4-12.4 0s-3.4 9 0 12.4l4.8 4.8L75.7 208l-21-21 22.7-22.7 4.3 4.3c1.7 1.7 4 2.6 6.2 2.6s4.5-.9 6.2-2.6c3.4-3.4 3.4-9 0-12.4l-4.3-4.3 6.2-6.2c3.4-3.4 3.4-9 0-12.4s-9-3.4-12.4 0l-6.2 6.2-4.3-4.3c-3.4-3.4-9-3.4-12.4 0s-3.4 9 0 12.4l4.3 4.3-22.7 22.7-21-21L83.4 91.3l26.8 26.8c1.7 1.7 4 2.6 6.2 2.6s4.5-.9 6.2-2.6c3.4-3.4 3.4-9 0-12.4l-33-33L73.7 56.7c-.8-.8-1-1.8-1-2.3s.1-1.5 1-2.3l6-6c.8-.8 1.8-1 2.3-1s1.5 .1 2.3 1l253.2 253.2c3.1 3.1 8 3.4 11.5 .8c16.3-12.3 35.2-19.6 54.7-21c2.3-.2 4.6-.2 6.9-.2c22.9 0 44.1 8.6 59.7 24.1c17.2 17.2 25.7 40.9 23.9 66.6zm-83.8-75.7c-22.5 0-45.2 9.8-62.2 26.8c-15.7 15.7-25.1 35.8-26.6 56.6c-1.5 21.3 5.4 40.8 19.5 54.9c12.7 12.7 30.2 19.7 49.3 19.7c22.5 0 45.2-9.8 62.2-26.8c15.7-15.7 25.1-35.8 26.6-56.6c1.5-21.3-5.4-40.8-19.5-54.9c-12.7-12.7-30.2-19.7-49.3-19.7zm51.2 73.4c-1.2 16.6-8.8 32.7-21.5 45.4c-13.8 13.8-31.9 21.6-49.8 21.6c-14.3 0-27.4-5.2-36.8-14.6c-10.5-10.4-15.6-25.1-14.4-41.2c1.2-16.6 8.8-32.7 21.5-45.4c13.8-13.8 31.9-21.6 49.8-21.6c14.3 0 27.4 5.2 36.8 14.6c10.4 10.4 15.6 25.1 14.4 41.2z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Roman Catholicism</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -397,7 +408,8 @@ var refTagger = {
       href="/answers/catholicism/pope-antichrist/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Is the Pope the Anti-Christ?</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Is the Pope the Anti-Christ?</span>
+      </span>
     </a>
   </div>
               
@@ -411,7 +423,8 @@ var refTagger = {
       href="/confessions/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Confessions</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Confessions</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -421,7 +434,8 @@ var refTagger = {
       href="/confessions/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface</span>
+      </span>
     </a>
   </div>
               
@@ -431,7 +445,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Ecumenical Creeds</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Ecumenical Creeds</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -442,7 +457,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/apostles-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      </span>
     </a>
   </div>
               
@@ -452,7 +468,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/nicene-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Nicene Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Nicene Creed</span>
+      </span>
     </a>
   </div>
               
@@ -462,7 +479,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/athanasian-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Athanasian Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Athanasian Creed</span>
+      </span>
     </a>
   </div>
               
@@ -474,7 +492,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Augsburg Confession</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -485,7 +504,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface to the Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface to the Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -495,7 +515,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/articles/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Articles of The Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Articles of The Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -505,7 +526,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/conclusion/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Conclusion to the Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Conclusion to the Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -517,7 +539,8 @@ var refTagger = {
       href="/confessions/apology/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apology of the Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apology of the Augsburg Confession</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -528,7 +551,8 @@ var refTagger = {
       href="/confessions/apology/melanchthon-greetings/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Philip Melanchthon Presents His Greetings to the Reader</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Philip Melanchthon Presents His Greetings to the Reader</span>
+      </span>
     </a>
   </div>
               
@@ -538,7 +562,8 @@ var refTagger = {
       href="/confessions/apology/the-apology/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apology of The Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apology of The Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -548,7 +573,8 @@ var refTagger = {
       href="/confessions/apology/conclusion/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Conclusion To The Apology</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Conclusion To The Apology</span>
+      </span>
     </a>
   </div>
               
@@ -560,7 +586,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -571,7 +598,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Preface of Doctor Martin Luther</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Preface of Doctor Martin Luther</span>
+      </span>
     </a>
   </div>
               
@@ -581,7 +609,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/articles/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      </span>
     </a>
   </div>
               
@@ -591,7 +620,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/signatories/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Signatories</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Signatories</span>
+      </span>
     </a>
   </div>
               
@@ -603,7 +633,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Power &amp; Primacy of The Pope</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Power &amp; Primacy of The Pope</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -614,7 +645,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/treatise/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Treatise Compiled by the Theologians Assembled at Smalcald - 1537</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Treatise Compiled by the Theologians Assembled at Smalcald - 1537</span>
+      </span>
     </a>
   </div>
   
@@ -625,7 +657,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/power-jurisdiction-bishops/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Of the Power and Jurisdiction of Bishops</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Of the Power and Jurisdiction of Bishops</span>
+      </span>
     </a>
   </div>
               
@@ -635,7 +668,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/signatories/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Signatories of The Tractate</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Signatories of The Tractate</span>
+      </span>
     </a>
   </div>
               
@@ -647,7 +681,8 @@ var refTagger = {
       href="/confessions/small-catechism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Small Catechism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Small Catechism</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -658,7 +693,8 @@ var refTagger = {
       href="/confessions/small-catechism/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Preface to the Small Catechism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Preface to the Small Catechism</span>
+      </span>
     </a>
   </div>
               
@@ -668,7 +704,8 @@ var refTagger = {
       href="/confessions/small-catechism/ten-commandments/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      </span>
     </a>
   </div>
               
@@ -678,7 +715,8 @@ var refTagger = {
       href="/confessions/small-catechism/creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Creed</span>
+      </span>
     </a>
   </div>
               
@@ -688,7 +726,8 @@ var refTagger = {
       href="/confessions/small-catechism/the-lords-prayer/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      </span>
     </a>
   </div>
               
@@ -698,7 +737,8 @@ var refTagger = {
       href="/confessions/small-catechism/baptism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Sacrament of Holy Baptism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Sacrament of Holy Baptism</span>
+      </span>
     </a>
   </div>
               
@@ -708,7 +748,8 @@ var refTagger = {
       href="/confessions/small-catechism/confession-absolution/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Confession &amp; Absolution</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Confession &amp; Absolution</span>
+      </span>
     </a>
   </div>
               
@@ -718,7 +759,8 @@ var refTagger = {
       href="/confessions/small-catechism/holy-communion/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      </span>
     </a>
   </div>
               
@@ -728,7 +770,8 @@ var refTagger = {
       href="/confessions/small-catechism/daily-prayers/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Daily Prayers</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Daily Prayers</span>
+      </span>
     </a>
   </div>
               
@@ -738,7 +781,8 @@ var refTagger = {
       href="/confessions/small-catechism/table-of-duties/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Table of Duties</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Table of Duties</span>
+      </span>
     </a>
   </div>
               
@@ -748,7 +792,8 @@ var refTagger = {
       href="/confessions/small-catechism/questions-and-answers/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Christian Questions and their Answers</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Christian Questions and their Answers</span>
+      </span>
     </a>
   </div>
               
@@ -760,7 +805,8 @@ var refTagger = {
       href="/confessions/large-catechism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Large Catechism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Large Catechism</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -771,7 +817,8 @@ var refTagger = {
       href="/confessions/large-catechism/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface of Dr. Luther</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface of Dr. Luther</span>
+      </span>
     </a>
   </div>
               
@@ -781,7 +828,8 @@ var refTagger = {
       href="/confessions/large-catechism/ten-commandments/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      </span>
     </a>
   </div>
               
@@ -791,7 +839,8 @@ var refTagger = {
       href="/confessions/large-catechism/apostles-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      </span>
     </a>
   </div>
               
@@ -801,7 +850,8 @@ var refTagger = {
       href="/confessions/large-catechism/the-lords-prayer/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      </span>
     </a>
   </div>
               
@@ -811,7 +861,8 @@ var refTagger = {
       href="/confessions/large-catechism/holy-baptism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Holy Baptism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Holy Baptism</span>
+      </span>
     </a>
   </div>
               
@@ -821,7 +872,8 @@ var refTagger = {
       href="/confessions/large-catechism/sacrament-of-the-altar/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      </span>
     </a>
   </div>
               
@@ -833,7 +885,8 @@ var refTagger = {
       href="/confessions/formula/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Formula of Concord</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Formula of Concord</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -844,7 +897,8 @@ var refTagger = {
       href="/confessions/formula/epitome/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Epitome</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Epitome</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -855,7 +909,8 @@ var refTagger = {
       href="/confessions/formula/epitome/rule-and-norm/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary: The Rule and Norm</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary: The Rule and Norm</span>
+      </span>
     </a>
   </div>
               
@@ -865,7 +920,8 @@ var refTagger = {
       href="/confessions/formula/epitome/original-sin/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">I - Original Sin.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">I - Original Sin.</span>
+      </span>
     </a>
   </div>
               
@@ -875,7 +931,8 @@ var refTagger = {
       href="/confessions/formula/epitome/free-will/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">II - Free Will.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">II - Free Will.</span>
+      </span>
     </a>
   </div>
               
@@ -885,7 +942,8 @@ var refTagger = {
       href="/confessions/formula/epitome/righteousness-of-faith/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith Before God.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith Before God.</span>
+      </span>
     </a>
   </div>
               
@@ -895,7 +953,8 @@ var refTagger = {
       href="/confessions/formula/epitome/good-works/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IV - Good Works.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IV - Good Works.</span>
+      </span>
     </a>
   </div>
               
@@ -905,7 +964,8 @@ var refTagger = {
       href="/confessions/formula/epitome/law-and-gospel/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel.</span>
+      </span>
     </a>
   </div>
               
@@ -915,7 +975,8 @@ var refTagger = {
       href="/confessions/formula/epitome/third-use-law/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law.</span>
+      </span>
     </a>
   </div>
               
@@ -925,7 +986,8 @@ var refTagger = {
       href="/confessions/formula/epitome/the-lords-supper/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VII - The Lord&#39;s Supper.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VII - The Lord&#39;s Supper.</span>
+      </span>
     </a>
   </div>
               
@@ -935,7 +997,8 @@ var refTagger = {
       href="/confessions/formula/epitome/person-of-christ/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ.</span>
+      </span>
     </a>
   </div>
               
@@ -945,7 +1008,8 @@ var refTagger = {
       href="/confessions/formula/epitome/descent-into-hell/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IX - The Descent of Christ into Hell.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IX - The Descent of Christ into Hell.</span>
+      </span>
     </a>
   </div>
               
@@ -955,7 +1019,8 @@ var refTagger = {
       href="/confessions/formula/epitome/church-rites/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">X - Church Rites.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">X - Church Rites.</span>
+      </span>
     </a>
   </div>
               
@@ -965,7 +1030,8 @@ var refTagger = {
       href="/confessions/formula/epitome/election/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XI - Election.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XI - Election.</span>
+      </span>
     </a>
   </div>
               
@@ -975,7 +1041,8 @@ var refTagger = {
       href="/confessions/formula/epitome/other-sects/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XII - Other Sects.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XII - Other Sects.</span>
+      </span>
     </a>
   </div>
               
@@ -987,7 +1054,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Solid Declaration</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Solid Declaration</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -998,7 +1066,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface to the Solid Declaration</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface to the Solid Declaration</span>
+      </span>
     </a>
   </div>
               
@@ -1008,7 +1077,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/rule-and-norm/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary</span>
+      </span>
     </a>
   </div>
               
@@ -1018,7 +1088,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/original-sin/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">I - Original Sin</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">I - Original Sin</span>
+      </span>
     </a>
   </div>
               
@@ -1028,7 +1099,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/free-will/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">II - Free Will</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">II - Free Will</span>
+      </span>
     </a>
   </div>
               
@@ -1038,7 +1110,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/righteousness-of-faith/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith</span>
+      </span>
     </a>
   </div>
               
@@ -1048,7 +1121,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/good-works/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IV - Good Works</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IV - Good Works</span>
+      </span>
     </a>
   </div>
               
@@ -1058,7 +1132,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/law-gospel/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel</span>
+      </span>
     </a>
   </div>
               
@@ -1068,7 +1143,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/third-use-law/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law</span>
+      </span>
     </a>
   </div>
               
@@ -1078,7 +1154,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/holy-supper/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VII - The Holy Supper</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VII - The Holy Supper</span>
+      </span>
     </a>
   </div>
               
@@ -1088,7 +1165,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/person-of-christ/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ</span>
+      </span>
     </a>
   </div>
               
@@ -1098,7 +1176,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/christs-descent-into-hell/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IX - Christ&#39;s Descent into Hell</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IX - Christ&#39;s Descent into Hell</span>
+      </span>
     </a>
   </div>
               
@@ -1108,7 +1187,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/church-rites-adiaphora/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">X - Church Rites, Commonly Called Adiaphora</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">X - Church Rites, Commonly Called Adiaphora</span>
+      </span>
     </a>
   </div>
               
@@ -1118,7 +1198,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/election/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XI - Election</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XI - Election</span>
+      </span>
     </a>
   </div>
               
@@ -1128,7 +1209,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/other-sects/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XII. Other Sects</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XII. Other Sects</span>
+      </span>
     </a>
   </div>
               
@@ -1142,7 +1224,8 @@ var refTagger = {
       href="/confessions/testimonies/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Catalog Of Testimonies</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Catalog Of Testimonies</span>
+      </span>
     </a>
   </div>
               
@@ -1153,7 +1236,8 @@ var refTagger = {
       href="https://buttondown.com/lutherananswers"
       target="_blank" rel="noreferrer"
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Newsletter</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Newsletter</span>
+      </span>
     </a>
   </div></li><li><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
@@ -1161,7 +1245,8 @@ var refTagger = {
       href="https://donate.stripe.com/5kQdRb8WJ6cD4q684Bds400"
       target="_blank" rel="noreferrer"
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Donate</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:shrink-0 hx:w-4 hx:h-4 hx:inline-flex hx:items-center hx:justify-center" aria-hidden="true"><svg height=16 fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.--><path d="M197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 365.9 422.5 489.3 320 560C217.5 489.3 64 365.9 64 229.1C64 155.6 123.6 96 197.1 96z"/></svg></span><span class="hx:min-w-0 [word-break:break-word]">Donate</span>
+      </span>
     </a>
   </div></li>
     </ul>
@@ -1174,7 +1259,8 @@ var refTagger = {
       href="/confessions/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface</span>
+      </span>
     </a>
   </div></li>
             <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
@@ -1183,7 +1269,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Ecumenical Creeds</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Ecumenical Creeds</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1193,7 +1280,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/apostles-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      </span>
     </a>
   </div>
               
@@ -1203,7 +1291,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/nicene-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Nicene Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Nicene Creed</span>
+      </span>
     </a>
   </div>
               
@@ -1213,7 +1302,8 @@ var refTagger = {
       href="/confessions/ecumenical-creeds/athanasian-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Athanasian Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Athanasian Creed</span>
+      </span>
     </a>
   </div>
               
@@ -1225,7 +1315,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Augsburg Confession</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1235,7 +1326,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface to the Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface to the Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -1245,7 +1337,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/articles/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Articles of The Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Articles of The Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -1255,7 +1348,8 @@ var refTagger = {
       href="/confessions/augsburg-confession/conclusion/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Conclusion to the Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Conclusion to the Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -1267,7 +1361,8 @@ var refTagger = {
       href="/confessions/apology/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apology of the Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apology of the Augsburg Confession</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1277,7 +1372,8 @@ var refTagger = {
       href="/confessions/apology/melanchthon-greetings/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Philip Melanchthon Presents His Greetings to the Reader</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Philip Melanchthon Presents His Greetings to the Reader</span>
+      </span>
     </a>
   </div>
               
@@ -1287,7 +1383,8 @@ var refTagger = {
       href="/confessions/apology/the-apology/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apology of The Augsburg Confession</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apology of The Augsburg Confession</span>
+      </span>
     </a>
   </div>
               
@@ -1297,7 +1394,8 @@ var refTagger = {
       href="/confessions/apology/conclusion/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Conclusion To The Apology</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Conclusion To The Apology</span>
+      </span>
     </a>
   </div>
               
@@ -1309,7 +1407,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1319,7 +1418,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Preface of Doctor Martin Luther</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Preface of Doctor Martin Luther</span>
+      </span>
     </a>
   </div>
               
@@ -1329,7 +1429,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/articles/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Smalcald Articles</span>
+      </span>
     </a>
   </div>
               
@@ -1339,7 +1440,8 @@ var refTagger = {
       href="/confessions/smalcald-articles/signatories/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Signatories</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Signatories</span>
+      </span>
     </a>
   </div>
               
@@ -1351,7 +1453,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Power &amp; Primacy of The Pope</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Power &amp; Primacy of The Pope</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1361,7 +1464,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/treatise/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Treatise Compiled by the Theologians Assembled at Smalcald - 1537</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Treatise Compiled by the Theologians Assembled at Smalcald - 1537</span>
+      </span>
     </a>
   </div>
               
@@ -1371,7 +1475,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/power-jurisdiction-bishops/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Of the Power and Jurisdiction of Bishops</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Of the Power and Jurisdiction of Bishops</span>
+      </span>
     </a>
   </div>
               
@@ -1381,7 +1486,8 @@ var refTagger = {
       href="/confessions/power-and-primacy/signatories/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Signatories of The Tractate</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Signatories of The Tractate</span>
+      </span>
     </a>
   </div>
               
@@ -1393,7 +1499,8 @@ var refTagger = {
       href="/confessions/small-catechism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Small Catechism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Small Catechism</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1403,7 +1510,8 @@ var refTagger = {
       href="/confessions/small-catechism/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Preface to the Small Catechism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Preface to the Small Catechism</span>
+      </span>
     </a>
   </div>
               
@@ -1413,7 +1521,8 @@ var refTagger = {
       href="/confessions/small-catechism/ten-commandments/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      </span>
     </a>
   </div>
               
@@ -1423,7 +1532,8 @@ var refTagger = {
       href="/confessions/small-catechism/creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Creed</span>
+      </span>
     </a>
   </div>
               
@@ -1433,7 +1543,8 @@ var refTagger = {
       href="/confessions/small-catechism/the-lords-prayer/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      </span>
     </a>
   </div>
               
@@ -1443,7 +1554,8 @@ var refTagger = {
       href="/confessions/small-catechism/baptism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Sacrament of Holy Baptism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Sacrament of Holy Baptism</span>
+      </span>
     </a>
   </div>
               
@@ -1453,7 +1565,8 @@ var refTagger = {
       href="/confessions/small-catechism/confession-absolution/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Confession &amp; Absolution</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Confession &amp; Absolution</span>
+      </span>
     </a>
   </div>
               
@@ -1463,7 +1576,8 @@ var refTagger = {
       href="/confessions/small-catechism/holy-communion/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      </span>
     </a>
   </div>
               
@@ -1473,7 +1587,8 @@ var refTagger = {
       href="/confessions/small-catechism/daily-prayers/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Daily Prayers</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Daily Prayers</span>
+      </span>
     </a>
   </div>
               
@@ -1483,7 +1598,8 @@ var refTagger = {
       href="/confessions/small-catechism/table-of-duties/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Table of Duties</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Table of Duties</span>
+      </span>
     </a>
   </div>
               
@@ -1493,7 +1609,8 @@ var refTagger = {
       href="/confessions/small-catechism/questions-and-answers/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Christian Questions and their Answers</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Christian Questions and their Answers</span>
+      </span>
     </a>
   </div>
               
@@ -1505,7 +1622,8 @@ var refTagger = {
       href="/confessions/large-catechism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Large Catechism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Luther&#39;s Large Catechism</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1515,7 +1633,8 @@ var refTagger = {
       href="/confessions/large-catechism/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface of Dr. Luther</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface of Dr. Luther</span>
+      </span>
     </a>
   </div>
               
@@ -1525,7 +1644,8 @@ var refTagger = {
       href="/confessions/large-catechism/ten-commandments/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Ten Commandments</span>
+      </span>
     </a>
   </div>
               
@@ -1535,7 +1655,8 @@ var refTagger = {
       href="/confessions/large-catechism/apostles-creed/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Apostles&#39; Creed</span>
+      </span>
     </a>
   </div>
               
@@ -1545,7 +1666,8 @@ var refTagger = {
       href="/confessions/large-catechism/the-lords-prayer/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Lord&#39;s Prayer</span>
+      </span>
     </a>
   </div>
               
@@ -1555,7 +1677,8 @@ var refTagger = {
       href="/confessions/large-catechism/holy-baptism/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Holy Baptism</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Holy Baptism</span>
+      </span>
     </a>
   </div>
               
@@ -1565,7 +1688,8 @@ var refTagger = {
       href="/confessions/large-catechism/sacrament-of-the-altar/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Sacrament of the Altar</span>
+      </span>
     </a>
   </div>
               
@@ -1577,7 +1701,8 @@ var refTagger = {
       href="/confessions/formula/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Formula of Concord</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Formula of Concord</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
@@ -1587,7 +1712,8 @@ var refTagger = {
       href="/confessions/formula/epitome/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">The Epitome</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">The Epitome</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -1598,7 +1724,8 @@ var refTagger = {
       href="/confessions/formula/epitome/rule-and-norm/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary: The Rule and Norm</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary: The Rule and Norm</span>
+      </span>
     </a>
   </div>
               
@@ -1608,7 +1735,8 @@ var refTagger = {
       href="/confessions/formula/epitome/original-sin/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">I - Original Sin.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">I - Original Sin.</span>
+      </span>
     </a>
   </div>
               
@@ -1618,7 +1746,8 @@ var refTagger = {
       href="/confessions/formula/epitome/free-will/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">II - Free Will.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">II - Free Will.</span>
+      </span>
     </a>
   </div>
               
@@ -1628,7 +1757,8 @@ var refTagger = {
       href="/confessions/formula/epitome/righteousness-of-faith/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith Before God.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith Before God.</span>
+      </span>
     </a>
   </div>
               
@@ -1638,7 +1768,8 @@ var refTagger = {
       href="/confessions/formula/epitome/good-works/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IV - Good Works.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IV - Good Works.</span>
+      </span>
     </a>
   </div>
               
@@ -1648,7 +1779,8 @@ var refTagger = {
       href="/confessions/formula/epitome/law-and-gospel/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel.</span>
+      </span>
     </a>
   </div>
               
@@ -1658,7 +1790,8 @@ var refTagger = {
       href="/confessions/formula/epitome/third-use-law/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law.</span>
+      </span>
     </a>
   </div>
               
@@ -1668,7 +1801,8 @@ var refTagger = {
       href="/confessions/formula/epitome/the-lords-supper/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VII - The Lord&#39;s Supper.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VII - The Lord&#39;s Supper.</span>
+      </span>
     </a>
   </div>
               
@@ -1678,7 +1812,8 @@ var refTagger = {
       href="/confessions/formula/epitome/person-of-christ/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ.</span>
+      </span>
     </a>
   </div>
               
@@ -1688,7 +1823,8 @@ var refTagger = {
       href="/confessions/formula/epitome/descent-into-hell/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IX - The Descent of Christ into Hell.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IX - The Descent of Christ into Hell.</span>
+      </span>
     </a>
   </div>
               
@@ -1698,7 +1834,8 @@ var refTagger = {
       href="/confessions/formula/epitome/church-rites/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">X - Church Rites.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">X - Church Rites.</span>
+      </span>
     </a>
   </div>
               
@@ -1708,7 +1845,8 @@ var refTagger = {
       href="/confessions/formula/epitome/election/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XI - Election.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XI - Election.</span>
+      </span>
     </a>
   </div>
               
@@ -1718,7 +1856,8 @@ var refTagger = {
       href="/confessions/formula/epitome/other-sects/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XII - Other Sects.</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XII - Other Sects.</span>
+      </span>
     </a>
   </div>
               
@@ -1730,7 +1869,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Solid Declaration</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Solid Declaration</span>
+      </span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -1741,7 +1881,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/preface/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Preface to the Solid Declaration</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Preface to the Solid Declaration</span>
+      </span>
     </a>
   </div>
               
@@ -1751,7 +1892,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/rule-and-norm/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Comprehensive Summary</span>
+      </span>
     </a>
   </div>
               
@@ -1761,7 +1903,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/original-sin/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">I - Original Sin</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">I - Original Sin</span>
+      </span>
     </a>
   </div>
               
@@ -1771,7 +1914,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/free-will/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">II - Free Will</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">II - Free Will</span>
+      </span>
     </a>
   </div>
               
@@ -1781,7 +1925,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/righteousness-of-faith/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">III - The Righteousness of Faith</span>
+      </span>
     </a>
   </div>
               
@@ -1791,7 +1936,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/good-works/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IV - Good Works</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IV - Good Works</span>
+      </span>
     </a>
   </div>
               
@@ -1801,7 +1947,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/law-gospel/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">V - Law and Gospel</span>
+      </span>
     </a>
   </div>
               
@@ -1811,7 +1958,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/third-use-law/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VI - The Third Use of the Law</span>
+      </span>
     </a>
   </div>
               
@@ -1821,7 +1969,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/holy-supper/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VII - The Holy Supper</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VII - The Holy Supper</span>
+      </span>
     </a>
   </div>
               
@@ -1831,7 +1980,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/person-of-christ/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">VIII - The Person of Christ</span>
+      </span>
     </a>
   </div>
               
@@ -1841,7 +1991,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/christs-descent-into-hell/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">IX - Christ&#39;s Descent into Hell</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">IX - Christ&#39;s Descent into Hell</span>
+      </span>
     </a>
   </div>
               
@@ -1851,7 +2002,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/church-rites-adiaphora/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">X - Church Rites, Commonly Called Adiaphora</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">X - Church Rites, Commonly Called Adiaphora</span>
+      </span>
     </a>
   </div>
               
@@ -1861,7 +2013,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/election/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XI - Election</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XI - Election</span>
+      </span>
     </a>
   </div>
               
@@ -1871,7 +2024,8 @@ var refTagger = {
       href="/confessions/formula/solid-declaration/other-sects/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">XII. Other Sects</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">XII. Other Sects</span>
+      </span>
     </a>
   </div>
               
@@ -1885,7 +2039,8 @@ var refTagger = {
       href="/confessions/testimonies/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Catalog Of Testimonies</span>
+      <span class="hx:flex hx:items-center hx:gap-2 hx:min-w-0"><span class="hx:min-w-0 [word-break:break-word]">Catalog Of Testimonies</span>
+      </span>
     </a>
   </div></li>
         
@@ -2033,12 +2188,30 @@ var refTagger = {
           </button>
         </li><li class="hx:my-1 hx:h-px hx:bg-gray-200 hx:dark:bg-neutral-700" role="separator"></li><li role="none">
             <a
-              href="/big-craig?query=http%3A%2F%2Flocalhost%3A1313%2Fconfessions%2Fpower-and-primacy%2Ftreatise.md"
+              href="/big-craig?query=http%3A%2F%2Flocalhost%3A1313%2Fconfessions%2Fpower-and-primacy%2Ftreatise%2F&amp;title=Treatise&#43;Compiled&#43;by&#43;the&#43;Theologians&#43;Assembled&#43;at&#43;Smalcald&#43;-&#43;1537"
               target="_blank"
               rel="noopener noreferrer"
               role="menuitem"
               class="hx:flex hx:w-full hx:cursor-pointer hx:select-none hx:items-center hx:gap-2 hx:whitespace-nowrap hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:text-gray-700 hx:outline-none hx:transition-colors hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-gray-300 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100"
-            ><div class="hx:size-4 hx:shrink-0 hx:text-gray-500 hx:dark:text-gray-400"><svg height=16 width=16 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg></div>Ask AI
+            ><div class="hx:size-4 hx:shrink-0 hx:text-gray-500 hx:dark:text-gray-400"><svg height=16 width=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.--><path d="M336 32L336 80L392 80L392 112L336 112L336 167L472.3 250.3L480 255L480 310.1L567.2 353.7L576 358.1L576 576L64 576L64 358.1L72.8 353.7L160 310.1L160 255L167.7 250.3L304 167L304 112L248 112L248 80L304 80L304 32L336 32zM480 544L544 544L544 377.9L480 345.9L480 544zM448 544L448 273L320 194.8L192 273L192 544L256 544L256 384L384 384L384 544L448 544zM96 377.9L96 544L160 544L160 345.9L96 377.9zM352 544L352 416L288 416L288 544L352 544z"/></svg></div>Ask Big Craig
+            </a>
+          </li><li role="none">
+            <a
+              href="https://grok.com/?q=I%27m&#43;looking&#43;at&#43;this&#43;article%3A&#43;http%3A%2F%2Flocalhost%3A1313%2Fconfessions%2Fpower-and-primacy%2Ftreatise%2F%0AHelp&#43;me&#43;understand&#43;it."
+              target="_blank"
+              rel="noopener noreferrer"
+              role="menuitem"
+              class="hx:flex hx:w-full hx:cursor-pointer hx:select-none hx:items-center hx:gap-2 hx:whitespace-nowrap hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:text-gray-700 hx:outline-none hx:transition-colors hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-gray-300 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100"
+            ><div class="hx:size-4 hx:shrink-0 hx:text-gray-500 hx:dark:text-gray-400"><svg height=16 width=16 fill="currentColor" fill-rule="evenodd" height="1em" style="flex:none;line-height:1" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><title>Grok</title><path d="M9.27 15.29l7.978-5.897c.391-.29.95-.177 1.137.272.98 2.369.542 5.215-1.41 7.169-1.951 1.954-4.667 2.382-7.149 1.406l-2.711 1.257c3.889 2.661 8.611 2.003 11.562-.953 2.341-2.344 3.066-5.539 2.388-8.42l.006.007c-.983-4.232.242-5.924 2.75-9.383.06-.082.12-.164.179-.248l-3.301 3.305v-.01L9.267 15.292M7.623 16.723c-2.792-2.67-2.31-6.801.071-9.184 1.761-1.763 4.647-2.483 7.166-1.425l2.705-1.25a7.808 7.808 0 00-1.829-1A8.975 8.975 0 005.984 5.83c-2.533 2.536-3.33 6.436-1.962 9.764 1.022 2.487-.653 4.246-2.34 6.022-.599.63-1.199 1.259-1.682 1.925l7.62-6.815"></path></svg></div>Open in Grok
+            </a>
+          </li><li role="none">
+            <a
+              href="https://claude.ai/new?q=I%27m&#43;looking&#43;at&#43;this&#43;article%3A&#43;http%3A%2F%2Flocalhost%3A1313%2Fconfessions%2Fpower-and-primacy%2Ftreatise%2F%0AHelp&#43;me&#43;understand&#43;it."
+              target="_blank"
+              rel="noopener noreferrer"
+              role="menuitem"
+              class="hx:flex hx:w-full hx:cursor-pointer hx:select-none hx:items-center hx:gap-2 hx:whitespace-nowrap hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:text-gray-700 hx:outline-none hx:transition-colors hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-gray-300 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100"
+            ><div class="hx:size-4 hx:shrink-0 hx:text-gray-500 hx:dark:text-gray-400"><svg height=16 width=16 fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M164.4 404.5L265.1 348L266.8 343.1L265.1 340.4L260.2 340.4L243.4 339.4L185.9 337.8L136 335.7L87.7 333.1L75.5 330.5L64.1 315.5L65.3 308L75.5 301.1L90.2 302.4C109.1 303.7 136.1 305.5 171.2 308L206.4 310.1L258.6 315.5L266.9 315.5L268.1 312.1L265.3 310L263.1 307.9L212.8 273.8L158.4 237.8L129.9 217.1L114.5 206.6L106.7 196.8L103.3 175.3L117.3 159.9L136.1 161.2L140.9 162.5L159.9 177.2L200.6 208.7L253.7 247.8L261.5 254.3L264.6 252.1L265 250.5L261.5 244.7L232.6 192.5L201.8 139.4L188.1 117.4L184.5 104.2C183.2 98.8 182.3 94.2 182.3 88.7L198.2 67.1L207 64.3L228.2 67.1L237.1 74.9L250.3 105.1L271.7 152.6L304.9 217.2L314.6 236.4L319.8 254.2L321.7 259.6L325.1 259.6L325.1 256.5L327.8 220.1L332.8 175.4L337.7 117.9L339.4 101.7L347.4 82.3L363.3 71.8L375.7 77.7L385.9 92.4L384.5 101.9L378.4 141.4L366.5 203.3L358.7 244.8L363.2 244.8L368.4 239.6L389.4 211.8L424.6 167.7L440.1 150.2L458.2 130.9L469.8 121.7L491.8 121.7L508 145.8L500.7 170.7L478 199.4L459.2 223.8L432.2 260.1L415.4 289.1L417 291.4L421 291L481.9 278L514.8 272.1L554.1 265.4L571.9 273.7L573.8 282.1L566.8 299.3L524.8 309.7L475.6 319.5L402.3 336.8L401.4 337.5L402.4 338.8L435.4 341.9L449.5 342.7L484.1 342.7L548.5 347.5L565.3 358.6L575.4 372.2L573.7 382.6L547.8 395.8C532.3 392.1 493.4 382.9 431.2 368.1L403.2 361.1L399.3 361.1L399.3 363.4L422.6 386.2L465.3 424.8L518.8 474.6L521.5 486.9L514.6 496.6L507.3 495.6L460.3 460.2L442.2 444.3L401.1 409.7L398.4 409.7L398.4 413.3L407.9 427.2L457.9 502.4L460.5 525.4L456.9 532.9L443.9 537.4L429.7 534.8L400.4 493.7L370.2 447.4L345.8 405.9L342.8 407.6L328.4 562.4L321.7 570.3L306.2 576.2L293.2 566.4L286.3 550.5L293.2 519L301.5 477.9L308.2 445.2L314.3 404.6L317.9 391.1L317.7 390.2L314.7 390.6L284.1 432.6L237.6 495.5L200.8 534.9L192 538.4L176.7 530.5L178.1 516.4L186.6 503.8L237.5 439L268.2 398.8L288 375.6L287.9 372.2L286.7 372.2L151.4 460L127.3 463.1L116.9 453.4L118.2 437.5L123.1 432.3L163.8 404.3L163.7 404.4L163.7 404.5z"/></svg></div>Open in Claude
             </a>
           </li></ul>
     </div>

@@ -41,6 +41,26 @@ const responses = [
 
 ];
 
+// Check for an article sent over via URL params (e.g. from the "Ask Big Craig" context menu link)
+const params = new URLSearchParams(window.location.search);
+const sharedTitle = params.get("title");
+const sharedUrl = params.get("query");
+ 
+if (sharedTitle) {
+  // 1. Show the "user" sending the article over
+  appendMessage("user", `Hey Craig, can you fact check this article for me? <a href="${sharedUrl}"><b>${sharedTitle}</b></a>`, true);
+
+  // 2. After a beat, Craig acknowledges he's looking it over
+  setTimeout(() => {
+    appendMessage("bot", "Give me a sec, reading it over now...");
+  }, 900);
+
+  // 3. After another beat, Craig delivers the verdict
+  setTimeout(() => {
+    appendMessage("bot", `Yup... I read over the article "<a href="${sharedUrl}"><b>${sharedTitle}</b></a>" that you sent, and it looks correct to me!`, true);
+  }, 2400);
+}
+
 userInput.addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
       const inputText = userInput.value.trim();
@@ -52,7 +72,7 @@ userInput.addEventListener("keydown", function (e) {
   }
 });
 
-function appendMessage(role, text) {
+function appendMessage(role, text, isHtml = false) {
 const messageElement = document.createElement('div');
 messageElement.style = `display: flex; align-items: flex-end; ${role === 'user' ? 'justify-content: flex-start' : 'justify-content: flex-end'}`;
 
@@ -64,7 +84,11 @@ avatarElement.style = `${role === 'user' ? 'order:-999;height:50px;width:auto' :
 
 const messageContent = document.createElement('p');
 messageContent.style = `${role === "user" ? "background:white !important; margin-right:auto;" : "margin-left:auto; background:black; color: white !important;"} width:fit-content; max-width:60%; margin-bottom: 0.5rem; border-radius: 0.25rem; padding: 0.5rem 1rem; font-size: 0.875rem; line-height: 1.25rem; color: rgb(0 0 0);`;
-messageContent.textContent = text;
+if (isHtml) {
+  messageContent.innerHTML = text;
+} else {
+  messageContent.textContent = text;
+}
 
 messageElement.appendChild(avatarElement);
 messageElement.appendChild(messageContent);

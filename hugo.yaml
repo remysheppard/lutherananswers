@@ -1,42 +1,71 @@
+# =============================================================================
+# SITE BASICS
+# =============================================================================
 baseURL: https://lutherananswers.netlify.app/
-language:
-  locale: en-us
 title: Lutheran Answers
 
-caches:
-  images:
-    dir: :cacheDir/images
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+language:
+  locale: en-us
 
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: false
 
+# -----------------------------------------------------------------------------
+# Theme module (Hextra)
+# -----------------------------------------------------------------------------
 module:
   imports:
     - path: github.com/imfing/hextra
 
+# -----------------------------------------------------------------------------
+# Output formats — enables Markdown output + context menu "copy as markdown"
+# -----------------------------------------------------------------------------
+outputs:
+  page: [html, markdown]
+  section: [html, rss, markdown]
+
+# -----------------------------------------------------------------------------
+# Markdown rendering
+# -----------------------------------------------------------------------------
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# -----------------------------------------------------------------------------
+# Caching
+# -----------------------------------------------------------------------------
+caches:
+  images:
+    dir: :cacheDir/images
+
+
+# =============================================================================
+# MENUS
+# =============================================================================
+
 menus:
+
+  # ---------------------------------------------------------------------------
+  # Main nav (top navbar)
+  # ---------------------------------------------------------------------------
   main:
     - name: Answers
       pageRef: /answers
-      weight: 1 
+      weight: 1
 
     - name: Confessions
       pageRef: /confessions
       weight: 2
-    
+
     - name: Articles
       pageRef: /Articles
       weight: 3
 
-#    - name: Merch
-#      pageRef: /
-#      weight: 4
+    #    - name: Merch
+    #      pageRef: /
+    #      weight: 4
 
     - name: Newsletter
       url: https://buttondown.com/lutherananswers
@@ -50,7 +79,7 @@ menus:
       url: https://x.com/lutherananswers
       params:
         icon: x-twitter
-    
+
     - name: youtube
       url: https://www.youtube.com/@lutherananswers
       params:
@@ -59,30 +88,33 @@ menus:
     - name: Theme Toggle
       params:
         type: theme-toggle
-    
+
     - name: Donate
       url: https://donate.stripe.com/5kQdRb8WJ6cD4q684Bds400
       params:
         type: link
         icon: donate
 
+  # ---------------------------------------------------------------------------
+  # Footer nav (site links column)
+  # ---------------------------------------------------------------------------
   footer:
     - name: Answers
       pageRef: /answers/
       weight: 1
-    
+
     - name: Confessions
       pageRef: /confessions/
       weight: 2
-    
+
     - name: Articles
       pageRef: /articles/
       weight: 3
-    
+
     - name: Newsletter
       url: https://buttondown.com/lutherananswers
       weight: 4
-    
+
     - name: Big Craig
       pageRef: /big-craig/
       weight: 5
@@ -91,6 +123,9 @@ menus:
       pageRef: /contact/
       weight: 6
 
+  # ---------------------------------------------------------------------------
+  # Footer nav (social / listen & support column)
+  # ---------------------------------------------------------------------------
   social:
     - name: YouTube
       url: https://www.youtube.com/@lutherananswers
@@ -115,36 +150,31 @@ menus:
       weight: 4
       params:
         icon: fa-brands fa-x-twitter
-    
+
     - name: Donate
       url: https://donate.stripe.com/5kQdRb8WJ6cD4q684Bds400
       weight: 5
       params:
         icon: fa-sharp fa-heart
 
-outputs:
-  page: [html, markdown]
-  section: [html, rss, markdown]
+
+# =============================================================================
+# THEME PARAMETERS
+# =============================================================================
 
 params:
 
-#  banner:
-#    key: 'announcement-xxx'
-#    message: |
-#      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
+  # ---------------------------------------------------------------------------
+  # Banner (disabled)
+  # ---------------------------------------------------------------------------
+  #  banner:
+  #    key: 'announcement-xxx'
+  #    message: |
+  #      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
 
-
-  blog:
-    list:
-      displayTags: true
-  
-  toc:
-    displayTags: true
-
-  defaultSection: answers # Default section for shortcode.
-
-  externalLinkDecoration: true
-
+  # ---------------------------------------------------------------------------
+  # Navbar
+  # ---------------------------------------------------------------------------
   navbar:
     displayTitle: true
     displayLogo: true
@@ -155,6 +185,9 @@ params:
       width: 60
       height: 60
 
+  # ---------------------------------------------------------------------------
+  # Page layout
+  # ---------------------------------------------------------------------------
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: wide
@@ -162,17 +195,51 @@ params:
     contextMenu:
       enable: true
       links:
-      - name: "Ask AI"
-        url: "/big-craig?query={markdown_url}"
-        icon: "sparkles"
+        - name: "Ask Big Craig"
+          url: "/big-craig?query={url}&title={title}"
+          icon: big-craig
 
+        - name: "Open in Grok"
+          url: "https://grok.com/?q=I%27m+looking+at+this+article%3A+{url}%0AHelp+me+understand+it."
+          icon: grok
+
+        - name: "Open in Claude"
+          url: "https://claude.ai/new?q=I%27m+looking+at+this+article%3A+{url}%0AHelp+me+understand+it."
+          icon: claude
+
+  # ---------------------------------------------------------------------------
+  # Blog & table of contents
+  # ---------------------------------------------------------------------------
+  blog:
+    list:
+      displayTags: true
+
+  toc:
+    displayTags: true
+
+  defaultSection: answers # Default section for shortcode.
+
+  # ---------------------------------------------------------------------------
+  # Links
+  # ---------------------------------------------------------------------------
+  externalLinkDecoration: true
+
+  # ---------------------------------------------------------------------------
+  # Footer
+  # ---------------------------------------------------------------------------
   footer:
     displayCopyright: true
     displayPoweredBy: true
 
+  # ---------------------------------------------------------------------------
+  # Page metadata (last updated date)
+  # ---------------------------------------------------------------------------
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
+  # ---------------------------------------------------------------------------
+  # Edit-on-GitHub link
+  # ---------------------------------------------------------------------------
   editURL:
     enable: true
     base: "https://github.com/remysheppard/lutherananswers/edit/main/content/"

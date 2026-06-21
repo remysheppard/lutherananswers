@@ -1,6 +1,8 @@
 ---
 title: Mormons
 type: docs
+sidebar:
+  icon: moroni
 ---
 
 All things related to mormon theology go here.

@@ -1,6 +1,8 @@
 ---
 title: Jehovah's Witnesses
 type: docs
+sidebar:
+  icon: rook
 ---
 
 All things related to Watchtower theology go here.
