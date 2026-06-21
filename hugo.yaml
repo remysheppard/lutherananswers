@@ -71,6 +71,12 @@ outputs:
 
 params:
 
+  banner:
+    key: 'announcement-xxx'
+    message: |
+      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
+
+
   blog:
     list:
       displayTags: true
@@ -97,7 +103,7 @@ params:
     width: wide
 
     contextMenu:
-      enable: false
+      enable: true
       links:
       - name: "Ask AI"
         url: "/big-craig?query={markdown_url}"
