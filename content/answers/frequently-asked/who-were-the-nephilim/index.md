@@ -5,6 +5,7 @@ date: 2026-06-16
 type: docs
 feature: ""
 tags: ['Nephilim', 'Supernatural', 'Genesis', 'Cryptid']
+draft: true
 ---
 
 ## Introduction

@@ -1,2 +1,4 @@
 new-lutheran-answers.code-workspace
-public\
+public/
+resources/
+.hugo_build.lock

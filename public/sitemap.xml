@@ -215,27 +215,6 @@
     <loc>http://localhost:1313/contact/</loc>
     <lastmod>2026-06-21T12:11:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cryptid/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/answers/frequently-asked/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/genesis/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/nephilim/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/supernatural/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-20T19:55:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/answers/frequently-asked/who-were-the-nephilim/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/articles/a-pastoral-response-to-debs-law/</loc>
     <lastmod>2026-06-21T08:43:10-04:00</lastmod>
   </url><url>
@@ -249,6 +228,9 @@
     <lastmod>2026-06-20T19:55:24-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mormons/</loc>
+    <lastmod>2026-06-20T19:55:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-06-20T19:55:24-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/answers/catholicism/pope-antichrist/</loc>
@@ -274,11 +256,17 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/cryptid/</loc>
+  </url><url>
     <loc>http://localhost:1313/answers/cults/</loc>
     <lastmod>2026-06-20T19:55:24-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/answers/eschatology/</loc>
     <lastmod>2026-06-20T19:55:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/answers/frequently-asked/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/genesis/</loc>
   </url><url>
     <loc>http://localhost:1313/big-craig/</loc>
     <lastmod>2025-11-02T18:48:21-05:00</lastmod>
@@ -289,8 +277,12 @@
     <loc>http://localhost:1313/answers/cults/mormons/</loc>
     <lastmod>2025-10-19T09:05:48-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/nephilim/</loc>
+  </url><url>
     <loc>http://localhost:1313/answers/catholicism/</loc>
     <lastmod>2026-06-20T19:55:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/supernatural/</loc>
   </url><url>
     <loc>http://localhost:1313/confessions/</loc>
     <lastmod>2026-06-20T11:59:19-04:00</lastmod>
