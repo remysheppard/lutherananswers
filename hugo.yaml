@@ -20,7 +20,7 @@ module:
   imports:
     - path: github.com/imfing/hextra
 
-menu:
+menus:
   main:
     - name: Answers
       pageRef: /answers
@@ -42,11 +42,6 @@ menu:
       url: https://buttondown.com/lutherananswers
       weight: 5
 
-    - name: Big Craig
-      pre: '<i class="fa-thin fa-microchip-ai"></i>'
-      pageRef: /big-Craig
-      weight: 6
-
     - name: Search
       params:
         type: search
@@ -64,6 +59,68 @@ menu:
     - name: Theme Toggle
       params:
         type: theme-toggle
+    
+    - name: Donate
+      url: https://donate.stripe.com/5kQdRb8WJ6cD4q684Bds400
+      params:
+        type: link
+        icon: donate
+
+  footer:
+    - name: Answers
+      pageRef: /answers/
+      weight: 1
+    
+    - name: Confessions
+      pageRef: /confessions/
+      weight: 2
+    
+    - name: Articles
+      pageRef: /articles/
+      weight: 3
+    
+    - name: Newsletter
+      url: https://buttondown.com/lutherananswers
+      weight: 4
+    
+    - name: Big Craig
+      pageRef: /big-craig/
+      weight: 5
+
+    - name: Contact
+      pageRef: /contact/
+      weight: 6
+
+  social:
+    - name: YouTube
+      url: https://www.youtube.com/@lutherananswers
+      weight: 1
+      params:
+        icon: fa-brands fa-youtube
+
+    - name: Spotify
+      url: https://open.spotify.com/show/4UMWuMKo1ySP7jfsem6VeN
+      weight: 2
+      params:
+        icon: fa-brands fa-spotify
+
+    - name: Apple Podcasts
+      url: https://podcasts.apple.com/us/podcast/lutheran-answers/id1566549301
+      weight: 3
+      params:
+        icon: fa-solid fa-podcast
+
+    - name: Elon Musk's X
+      url: https://x.com/lutherananswers
+      weight: 4
+      params:
+        icon: fa-brands fa-x-twitter
+    
+    - name: Donate
+      url: https://donate.stripe.com/5kQdRb8WJ6cD4q684Bds400
+      weight: 5
+      params:
+        icon: fa-sharp fa-heart
 
 outputs:
   page: [html, markdown]
@@ -71,10 +128,10 @@ outputs:
 
 params:
 
-  banner:
-    key: 'announcement-xxx'
-    message: |
-      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
+#  banner:
+#    key: 'announcement-xxx'
+#    message: |
+#      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
 
 
   blog:

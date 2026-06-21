@@ -2,19 +2,44 @@
 date: '2025-10-08T20:23:45-04:00'
 toc: false
 ---
+
+<img src="hero-alt.jpg" alt="A Priest in a red chasuble standing in an empty gothic church." style="float:right;margin:0 0 0 1em" width="350" />
+
 {{< hextra/hero-headline >}}
-  Clear answers to your questions&nbsp;<br class="hx:sm:block hx:hidden" />rooted in Scripture and History
+  Biblical. Historical. Confessional.
 {{< /hextra/hero-headline >}}
 
-Welcome to **Lutheran Answers,** an indepedent project that seeks to be the premier online resource for Christians around the world. The ultimate goal will be to have various Christian Questions and Answers, writings, sermons, and more available on this website in an easy to search and easy to use format. 
+<span class="spacer mt-8"></span>
 
-To start, we've gotten the entire Book of Concord online for you to search and use.
+{{< hextra/hero-subtitle >}}
+  Clear answers to Christian questions, rooted in the historic Lutheran faith
+{{< /hextra/hero-subtitle >}}
 
-I'll be adding articles over time (including all the ones previously written). Feel free to contribute to the project by emailing me [contac@lutherananswers.com](mailto:contact@lutherananswers.com)
+<span class="spacer" style="margin-top:6.5em;display:block;"></span>
+
+{{< hextra/hero-button text="Find Answers" link="/answers" >}}
+{{< hextra/hero-button text="Ask A Question" link="" style="background:inherit;border:1px solid;color:inherit;margin-left:2em" >}}
+
+<span class="spacer mt-8" style="margin-top:4em;display:block"></span>
+
+Welcome to **Lutheran Answers**, a free and independent project that seeks to be the premier online resource for Christians around the world.
+
+Here you'll find the complete [**Book of Concord**](/confessions/), fully searchable, along with a growing library of [**Christian Questions and Answers**](/answers/) addressing the topics believers wrestle with most. 
+
+We publish a [**weekly newsletter**](https://buttondown.com/lutherananswers) to help you keep up with new articles and devotionals. And make sure you check out the **Lutheran Answers podcast**, available on [YouTube](https://www.youtube.com/@LutheranAnswers), [Spotify](https://open.spotify.com/show/4UMWuMKo1ySP7jfsem6VeN?nd=1&dlsi=feb0abdd872d4953), [Apple Podcasts](https://podcasts.apple.com/us/podcast/lutheran-answers/id1566549301), and your favorite podcast platforms.
+
+We're always looking for contributors to help us grow this resource. If you'd like to contribute, [submit your content here.](https://docs.google.com/forms/d/e/1FAIpQLScMaXLqXx2cKW-kg01uH3Cx1WtTfx1Uieztix2aFxfq3cN6wg/viewform?usp=header)
+
+{{< callout type="info" icon="envelopes-bulk">}}
+
+<div style="position: relative; float: left; margin-right: 2.5em; width: 205px;">
+  <img src="/st-john.jpg" style="display: block; width: 100%;border:solid 1px" loading="lazy"/>
+  <div style="position: absolute; inset: 0; background-color: #0099ff; mix-blend-mode: color; opacity: 0.3;"></div>
+</div>
 
 ### Subscribe to the Newsletter!
 
-Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today to get new articles, podcast episodes, and devotionals from Lutheran Answers sent straight to your inbox, free.
+Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today to get new articles, podcast episodes, and devotionals from Lutheran Answers sent straight to your inbox.
 
 <span class="spacer mt-8"></span>
 <style>
@@ -29,15 +54,72 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
   class="embeddable-buttondown-form"
   style="flex-direction: column; width:100%;"
 >
-  <label for="metadata__f_name" style="display: block; font-weight: 700;"><i class="fa-duotone fa-light fa-user"></i>&nbsp;First Name? (optional)</label>
-  <input type="text" name="metadata__f_name" id="f_name" style="display: block; border-radius: 0.25rem; background-color: inherit; border: 1px solid;padding:2px;width:300px;max-width:100%" />
+  <label 
+    for="metadata__f_name" 
+    style="
+      display: block; 
+      font-weight: 700;
+  ">
+    <i class="fa-duotone fa-light fa-user"></i>&nbsp;First Name (optional)
+  </label>
+  <input 
+    type="text" 
+    name="metadata__f_name" 
+    id="f_name" 
+    style="
+      display: block; 
+      border-radius: 0.25rem; 
+      background-color: inherit; 
+      border: 1px solid;
+      padding:2px;
+      width:300px;
+      max-width:100%" 
+  />
   <br />
-  <label for="bd-email" style="display: block; font-weight: 700;"><i class="fa-duotone fa-thin fa-envelope"></i>&nbsp;E-mail?</label>
-  <input type="email" name="email" id="bd-email" style="display: block; border-radius: 0.25rem; background-color: inherit; border: 1px solid;padding:2px;width:300px;max-width:100%" />
-  <button type="submit" value="Subscribe" style="display: block; padding-top: 0.5rem;padding-bottom: 0.5rem; padding-left: 1rem;padding-right: 1rem; margin-top: 1rem;margin-bottom: 1rem; border-radius: 0.25rem; font-weight: 700; color: #ffffff; background-color: #c9a227;width:300px;max-width:100%">Subscribe Today!&nbsp;<i class="fa-solid fa-paper-plane"></i></button>
+  <label 
+    for="bd-email" 
+    style="
+      display: block; 
+      font-weight: 700;
+  ">
+    <i class="fa-duotone fa-thin fa-envelope"></i>&nbsp;Email
+  </label>
+  <input 
+    type="email" 
+    name="email" 
+    id="bd-email" 
+    style="
+      display: block; 
+      border-radius: 0.25rem; 
+      background-color: inherit; 
+      border: 1px solid;
+      padding:2px;
+      width:300px;
+      max-width:100%
+  " />
+  <button 
+    type="submit" 
+    value="Subscribe" 
+    style="
+      display: block; 
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; 
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+      border-radius: 0.25rem; 
+      font-weight: 700; 
+      color: #ffffff; 
+      background-color: #0099ff;
+      width:300px;
+      max-width:100%
+  ">
+    Subscribe Today!&nbsp;<i class="fa-solid fa-paper-plane"></i>
+  </button>
 </form>
 
-
+{{< /callout >}}
 
 ## Answers to Christianity's Toughest Questions
 
