@@ -27,4 +27,4 @@ With an extensive database of religious doctrines, historical contexts, and phil
 <br /><br />
 Engage in meaningful conversations, get clarifications on complex theological concepts, or simply satisfy your curiosity—Big Craig is your go-to source for all things divine.
 <br /><br />
-*Alternatively, you can ask a real human a question by **[clicking here](mailto:contact@knowthefaith.com)**.*
+*Alternatively, you can ask a real human a question by **[clicking here](/contact/)**.*
