@@ -168,10 +168,10 @@ params:
   # ---------------------------------------------------------------------------
   # Banner (disabled)
   # ---------------------------------------------------------------------------
-  #  banner:
-  #    key: 'announcement-xxx'
-  #    message: |
-  #      🎉 Welcome! [Hextra](https://github.com/hextra/hextra) is a static site generator that helps you build modern websites.
+  banner:
+    key: 'announcement-xxx'
+    message: |
+      🎉 Check out the new website! Yes, it's technically the old website, but better and faster! [Let me know](/contact/) if you find any bugs!
 
   # ---------------------------------------------------------------------------
   # Navbar
