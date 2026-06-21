@@ -1,6 +1,7 @@
 ---
 title: Mormons
 type: docs
+feature: images/answers/mormonism-header.jpg
 sidebar:
   icon: moroni
 ---

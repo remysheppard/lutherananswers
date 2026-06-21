@@ -1,6 +1,7 @@
 ---
-title: Jehovah's Witnesses
+title: Jehovah's Witness
 type: docs
+feature: images/answers/jehovahs-witness-header.jpg
 sidebar:
   icon: rook
 ---

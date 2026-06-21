@@ -66,11 +66,34 @@ userInput.addEventListener("keydown", function (e) {
       const inputText = userInput.value.trim();
       if (inputText !== "") {
           appendMessage("user", inputText);
-          respondToUser();
+
+          const urlMatch = inputText.match(/https?:\/\/[^\s]+/);
+          if (urlMatch) {
+              respondToLink(urlMatch[0]);
+          } else {
+              respondToUser();
+          }
+
           userInput.value = "";
       }
   }
 });
+
+function respondToLink(url) {
+  const isTrustedSource = url.includes("lutherananswers.com");
+
+    setTimeout(() => {
+      appendMessage("bot", "Hang on, and let me read the link you sent.");
+  }, 700);
+
+  setTimeout(() => {
+      if (isTrustedSource) {
+          appendMessage("bot", "Yup, that's legit. I've read over the entire article and I can tell you that it's 100% accurate.");
+      } else {
+          appendMessage("bot", "Hmm... I'm not sure about that one. Maybe you should stick to a trusted resource like Lutheran Answers.");
+      }
+  }, 3400);
+}
 
 function appendMessage(role, text, isHtml = false) {
 const messageElement = document.createElement('div');
