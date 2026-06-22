@@ -1,13 +1,10 @@
-<div style="margin:1em 0;">
-  <strong>Like this article?</strong> Give it some love!&nbsp;
-  <button 
-    style="
-      border:1px solid;
-      background:inherit;
-      padding:.25em 1.5em;
-      color:inherit;
-      margin:0 .25em;
-      border-radius:1em" 
-    class="tinylytics_kudos" >
-  </button>
-</div>
+{{ if and (eq .Section "answers") (.IsPage) }}
+  <div class="hx:flex hx:items-center hx:gap-3 hx:my-8 hx:p-4 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:bg-gray-50 hx:dark:bg-neutral-900">
+    <span class="hx:text-lg">
+      ❤️ <strong class="hx:font-semibold">Like this article?</strong> Give it some love!
+    </span>
+    <button
+      class="tinylytics_kudos hx:ml-auto hx:px-5 hx:py-2 hx:rounded-full hx:border hx:border-primary-300 hx:dark:border-primary-700 hx:bg-primary-100 hx:dark:bg-primary-400/10 hx:transition-all hx:duration-150 hx:hover:scale-105 hx:hover:border-primary-500 hx:hover:bg-primary-200 hx:dark:hover:bg-primary-400/20 hx:hover:shadow-md hx:cursor-pointer"
+    ></button>
+  </div>
+{{ end }}
