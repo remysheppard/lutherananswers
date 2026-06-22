@@ -11,61 +11,18 @@
   {{- $displayPlaceholder = false -}}
 {{- end -}}
 
-{{- $asideStyle := "" -}}
-{{- $mobileUlStyle := "display:flex;flex-direction:column;gap:0.25rem;" -}}
-{{- $desktopUlStyle := "display:none;" -}}
+{{- $sidebarClass := "hx:md:sticky" -}}
 {{- if $disableSidebar -}}
   {{- if $displayPlaceholder -}}
-    {{- $asideStyle = "" -}}
+    {{- $sidebarClass = "hx:md:hidden hx:xl:block" -}}
   {{- else -}}
-    {{- $asideStyle = "" -}}
+    {{- $sidebarClass = "hx:md:hidden" -}}
   {{- end -}}
 {{- end -}}
 
-<style>
-  .la-sidebar-aside { display: flex; flex-direction: column; }
-  .la-sidebar-scrollbar { overflow-y: auto; overflow-x: hidden; padding: 1rem; flex-grow: 1; }
-  .la-sidebar-mobile-ul { display: flex; flex-direction: column; gap: 0.25rem; }
-  .la-sidebar-desktop-ul { display: none; }
-  .la-sidebar-toggle-bar { display: flex; align-items: center; gap: 0.5rem; }
-
-  @media (min-width: 48rem) {
-    .la-sidebar-aside:not(.la-sidebar-disabled) {
-      position: sticky;
-      top: var(--hextra-navbar-height);
-      flex-shrink: 0;
-      width: 16rem;
-      align-self: flex-start;
-    }
-    .la-sidebar-aside.la-sidebar-disabled {
-      display: none;
-    }
-    .la-sidebar-scrollbar {
-      height: calc(100vh - var(--hextra-navbar-height) - var(--menu-height));
-    }
-    .la-sidebar-mobile-ul {
-      display: none;
-    }
-    .la-sidebar-desktop-ul {
-      display: flex !important;
-      flex-direction: column;
-      gap: 0.25rem;
-    }
-    .la-sidebar-toggle-bar.la-sidebar-toggle-disabled {
-      display: none;
-    }
-  }
-
-  @media (max-width: 47.99rem) {
-    .la-sidebar-aside {
-      transform: translate3d(0, -100%, 0);
-    }
-  }
-</style>
-
-<aside class="hextra-sidebar-container la-sidebar-aside hx:print:hidden{{ if $disableSidebar }} la-sidebar-disabled{{ end }}">
-  <div class="hextra-scrollbar la-sidebar-scrollbar">
-    <ul class="la-sidebar-mobile-ul">
+<aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-[var(--hextra-navbar-height)] hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}">
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--hextra-navbar-height)-var(--menu-height))]">
+    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
       <!-- Nav -->
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
@@ -73,27 +30,27 @@
 
     <!-- Sidebar on large screen -->
     {{- if $disableSidebar -}}
-      {{- if $displayPlaceholder }}<div style="display:none;" class="hx:max-xl:hidden"></div>{{ end -}}
+      {{- if $displayPlaceholder }}<div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div>{{ end -}}
       {{ .context.Store.Set "enableFooterSwitches" true }}
     {{- else -}}
-      <ul class="la-sidebar-desktop-ul">
+      <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-md:hidden">
         {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) }}
         {{ template "sidebar-footer" }}
       </ul>
     {{ end -}}
   </div>
   {{/* Hide theme switch when sidebar is disabled */}}
-  {{ $switchesClass := cond $disableSidebar "la-sidebar-toggle-disabled" "" -}}
+  {{ $switchesClass := cond $disableSidebar "hx:md:hidden" "" -}}
   {{ $displayThemeToggle := (site.Params.theme.displayToggle | default true) -}}
 
   {{ if or hugo.IsMultilingual $displayThemeToggle }}
-    <div class="la-sidebar-toggle-bar {{ $switchesClass }} {{ with hugo.IsMultilingual }}hx:justify-end{{ end }} hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show">
+    <div class="{{ $switchesClass }} {{ with hugo.IsMultilingual }}hx:justify-end{{ end }} hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:flex hx:items-center hx:gap-2 hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show">
       {{- with hugo.IsMultilingual -}}
         {{- partial "language-switch" (dict "context" $context "grow" true) -}}
         {{- with $displayThemeToggle }}{{ partial "theme-toggle" (dict "hideLabel" true "location" "bottom-right") }}{{ end -}}
       {{- else -}}
         {{- with $displayThemeToggle -}}
-          <div style="display:flex;flex-grow:1;flex-direction:column;">{{ partial "theme-toggle" }}</div>
+          <div class="hx:flex hx:grow hx:flex-col">{{ partial "theme-toggle" }}</div>
         {{- end -}}
       {{- end -}}
     </div>
