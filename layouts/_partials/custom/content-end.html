@@ -1,7 +1,6 @@
 {{ if and (eq .Section "answers") (.IsPage) }}
 
-  <div class="hx:flex hx:flex-wrap hx:items-center hx:justify-between hx:gap-8 hx:w-full hx:mt-8 hx:mb-12 hx:p-4 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:bg-gray-50 hx:dark:bg-neutral-900">
-
+  <div class="hx:flex hx:flex-wrap hx:items-center hx:justify-between hx:w-full hx:mt-8 hx:mb-12 hx:p-4 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:bg-gray-50 hx:dark:bg-neutral-900" style="gap: 2rem;">
     <!-- Kudos -->
     <div class="hx:flex hx:items-center hx:gap-3">
       <span class="hx:text-lg">
@@ -13,7 +12,7 @@
     </div>
 
     <!-- Newsletter -->
-    <div class="hx:flex hx:flex-col hx:gap-2 hx:min-w-[260px] hx:mt-8 hx:md:mt-0">
+    <div class="hx:flex hx:flex-col hx:gap-2 hx:min-w-[260px]">
       <p class="hx:font-semibold hx:text-lg">Join our newsletter!</p>
       <form
         action="https://buttondown.com/api/emails/embed-subscribe/LutheranAnswers"
