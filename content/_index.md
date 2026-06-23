@@ -17,17 +17,12 @@ toc: false
 
 <span class="spacer" style="margin-top:6.5em;display:block;"></span>
 
-<button
-  type="button"
-  data-search-open
-  aria-haspopup="dialog"
-  aria-controls="hextra-search-dialog"
-  class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:hextra-focus-visible hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:transition-all hx:ease-in hx:duration-200"
->
-  Find Answers
-</button>
+<div class="hx:flex hx:justify-between">
+<button type="button" data-search-open aria-haspopup="dialog" aria-controls="hextra-search-dialog" class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hextra-focus-visible hx:dark:bg-primary-600 hx:transition-all hx:ease-in hx:duration-200">Find Answers</button>
 
-{{< hextra/hero-button text="Ask A Question" link="" style="background:inherit;border:1px solid;color:inherit;margin-left:2em" >}}
+{{< hextra/hero-button text="Ask A Question" link="" style="background:inherit;border:1px solid;color:inherit;" >}}
+</div>
+
 
 <span class="spacer mt-8" style="margin-top:4em;display:block"></span>
 
