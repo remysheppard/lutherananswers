@@ -1,11 +1,4 @@
 {{ define "main" }}
-
-{{ $feature := "" }}
-{{ with .Params.Feature }}
-  {{ $feature = . }}
-  {{ $feature = resources.Get $feature }}
-{{ end }}
-
 <div class="hx:mx-auto hx:flex" style="width:1560px;max-width:100%">
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
@@ -21,11 +14,7 @@
             </div>
           {{ end }}
           {{ partial "custom/content-begin.html" . }}
-          <span style="font-size:1.2em"><strong>Short Answer:</strong> &nbsp; {{- .Params.subtitle -}}</span>
-          {{ with $feature }}
-            <img src="{{ .RelPermalink }}" loading="lazy" />
-          {{ end }}
-            {{ .Content }}
+          {{ .Content }}
           {{ partial "custom/content-end.html" . }}
         </div>
         {{ partial "components/last-updated.html" . }}
