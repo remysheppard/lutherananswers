@@ -1,45 +1,42 @@
 {{ if and (eq .Section "answers") (.IsPage) }}
 
-<div class="hx:flex hx:flex-wrap hx:items-center hx:gap-8 hx:w-full hx:mt-8 hx:mb-12 hx:p-4 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:bg-gray-50 hx:dark:bg-neutral-900">
+  <div class="hx:flex hx:flex-wrap hx:items-center hx:justify-between hx:gap-8 hx:w-full hx:mt-8 hx:mb-12 hx:p-4 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:bg-gray-50 hx:dark:bg-neutral-900">
 
-  <!-- Kudos -->
-  <div class="hx:flex hx:items-center hx:gap-3">
-    <span class="hx:text-lg">
-      ❤️ <strong class="hx:font-semibold">Like this article?</strong> Give it some love!&nbsp;&nbsp;
-    </span>
-    <button
-      class="tinylytics_kudos hx:min-w-[3.5rem] hx:px-4 hx:py-2 hx:rounded-full hx:border hx:border-primary-300 hx:dark:border-primary-700 hx:bg-primary-100 hx:dark:bg-primary-400/10 hx:transition-all hx:duration-150 hx:hover:scale-105 hx:hover:border-primary-500 hx:hover:bg-primary-200 hx:dark:hover:bg-primary-400/20 hx:hover:shadow-md hx:cursor-pointer"
-    ></button>
-  </div>
-
-  <!-- Divider (desktop only) -->
-  <div class="hx:hidden hx:md:block hx:w-px hx:self-stretch hx:bg-gray-200 hx:dark:bg-neutral-700"></div>
-
-  <!-- Newsletter -->
-  <div class="hx:flex hx:flex-col hx:gap-2 hx:flex-1 hx:min-w-[260px]">
-    <p class="hx:font-semibold hx:text-sm">Stay in the loop</p>
-    <form
-      action="https://buttondown.com/api/emails/embed-subscribe/LutheranAnswers"
-      method="post"
-      class="embeddable-buttondown-form hx:flex hx:gap-2"
-    >
-      <input
-        type="email"
-        placeholder="Email"
-        name="email"
-        id="bd-email"
-        class="hx:flex-1 hx:min-w-0 hx:px-3 hx:py-2 hx:rounded-md hx:border hx:border-gray-300 hx:dark:border-neutral-700 hx:bg-transparent hx:text-sm"
-      />
+    <!-- Kudos -->
+    <div class="hx:flex hx:items-center hx:gap-3">
+      <span class="hx:text-lg">
+        ❤️ <strong class="hx:font-semibold">Like this article?</strong> Give it some love!&nbsp;&nbsp;
+      </span>
       <button
-        type="submit"
-        class="hx:px-4 hx:py-2 hx:rounded-md hx:text-sm hx:font-semibold hx:text-white hx:whitespace-nowrap hx:cursor-pointer"
-        style="background-color:#0099ff;"
-      >
-        Subscribe
-      </button>
-    </form>
-  </div>
+        class="tinylytics_kudos hx:min-w-[3.5rem] hx:px-4 hx:py-2 hx:rounded-full hx:border hx:border-primary-300 hx:dark:border-primary-700 hx:bg-primary-100 hx:dark:bg-primary-400/10 hx:transition-all hx:duration-150 hx:hover:scale-105 hx:hover:border-primary-500 hx:hover:bg-primary-200 hx:dark:hover:bg-primary-400/20 hx:hover:shadow-md hx:cursor-pointer"
+      ></button>
+    </div>
 
-</div>
+    <!-- Newsletter -->
+    <div class="hx:flex hx:flex-col hx:gap-2 hx:min-w-[260px] hx:mt-8 hx:md:mt-0">
+      <p class="hx:font-semibold hx:text-lg">Join our newsletter!</p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/LutheranAnswers"
+        method="post"
+        class="embeddable-buttondown-form hx:flex hx:gap-2"
+      >
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          id="bd-email"
+          class="hx:flex-1 hx:min-w-0 hx:px-3 hx:py-2 hx:rounded-md hx:border hx:border-gray-300 hx:dark:border-neutral-700 hx:bg-transparent hx:text-sm"
+        />
+        <button
+          type="submit"
+          class="hx:px-4 hx:py-2 hx:rounded-md hx:text-sm hx:font-semibold hx:text-white hx:whitespace-nowrap hx:cursor-pointer"
+          style="background-color:#0099ff;"
+        >
+          Subscribe
+        </button>
+      </form>
+    </div>
+
+  </div>
 
 {{ end }}
