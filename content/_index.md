@@ -20,7 +20,7 @@ toc: false
 <div class="hx:flex hx:justify-between">
 <button type="button" data-search-open aria-haspopup="dialog" aria-controls="hextra-search-dialog" class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hextra-focus-visible hx:dark:bg-primary-600 hx:transition-all hx:ease-in hx:duration-200">Find Answers</button>
 
-{{< hextra/hero-button text="Ask A Question" link="" style="background:inherit;border:1px solid;color:inherit;" >}}
+{{< hextra/hero-button text="Ask A Question" link="https://docs.google.com/forms/d/e/1FAIpQLSeUrz_BYZtbSaRp5C3erwZKZRMwyeAIf3lA-w90hFy5xbMNOw/viewform" style="background:inherit;border:1px solid;color:inherit;" >}}
 </div>
 
 
