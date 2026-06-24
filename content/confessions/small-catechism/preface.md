@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Luther's Preface to the Small Catechism 
 Weight: 1 
 type: docs

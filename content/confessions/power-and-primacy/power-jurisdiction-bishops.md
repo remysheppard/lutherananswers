@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Of the Power and Jurisdiction of Bishops
 Weight: 2
 type: docs

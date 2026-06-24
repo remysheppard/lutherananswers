@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 title: Signatories
 weight: 3
 type: docs

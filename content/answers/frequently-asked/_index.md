@@ -1,6 +1,7 @@
 ---
 title: General Quesions
 type: docs
+contextMenu: false
 sidebar:
   icon: got-questions
 ---

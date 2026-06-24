@@ -1,5 +1,6 @@
 ---
 title: The Book of Concord Online
+contextMenu: false
 ---
 <span class="spacer mt-8"></span>
 

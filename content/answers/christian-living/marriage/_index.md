@@ -1,6 +1,7 @@
 ---
 title: Marriage
 type: docs
+contextMenu: false
 feature: images/answers/marriage-header.jpg
 sidebar:
   icon: rings

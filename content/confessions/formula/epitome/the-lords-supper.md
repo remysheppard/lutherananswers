@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: VII - The Lord's Supper.
 Weight: 8
 type: docs

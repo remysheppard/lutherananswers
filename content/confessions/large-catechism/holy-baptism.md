@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Holy Baptism
 Weight: 5
 type: docs

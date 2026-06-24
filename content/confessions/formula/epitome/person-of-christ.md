@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: VIII - The Person of Christ.
 Weight: 9
 type: docs

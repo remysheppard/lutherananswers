@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Preface to the Solid Declaration
 Weight: 1
 type: docs

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Nicene Creed
 weight: 2
 type: docs

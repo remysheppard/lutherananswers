@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Creed
 Weight: 3
 type: docs

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Apology of The Augsburg Confession
 weight: 2
 type: docs

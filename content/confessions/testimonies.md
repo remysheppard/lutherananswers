@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Catalog Of Testimonies
 Weight: 9
 type: docs

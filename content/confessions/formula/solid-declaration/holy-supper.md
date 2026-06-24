@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: VII - The Holy Supper
 Weight: 9
 type: docs

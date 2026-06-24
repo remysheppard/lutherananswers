@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: X - Church Rites, Commonly Called Adiaphora
 Weight: 12
 type: docs

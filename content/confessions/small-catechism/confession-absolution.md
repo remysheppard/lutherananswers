@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Confession & Absolution
 Weight: 7
 type: docs

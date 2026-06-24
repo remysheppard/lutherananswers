@@ -2,6 +2,7 @@
 title: The Small Catechism
 weight: 6
 type: docs
+contextMenu: false
 ---
 
 {{< cards col="2" >}}

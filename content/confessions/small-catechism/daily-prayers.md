@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Daily Prayers
 Weight: 8
 type: docs

@@ -2,6 +2,7 @@
 Title: Luther's Large Catechism
 Weight: 7
 type: docs
+contextMenu: false
 ---
 
 Luther's Introduction to the Large Catechism is included below. However, for ease of use, I have included the directory at the top of the page.

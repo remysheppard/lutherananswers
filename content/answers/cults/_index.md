@@ -1,6 +1,7 @@
 ---
 title: Cults
 type: docs
+contextMenu: false
 fontAwesome: fa-sharp-duotone fa-solid fa-snake
 feature: /images/answers/cults-header.jpg
 sidebar:

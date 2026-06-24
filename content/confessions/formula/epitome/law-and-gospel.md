@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: V - Law and Gospel.
 Weight: 6
 type: docs

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: II - Free Will.
 Weight: 3
 type: docs

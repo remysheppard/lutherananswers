@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Preface of Dr. Luther
 Weight: 1
 type: docs

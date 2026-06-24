@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Apostles' Creed
 Weight: 3
 type: docs

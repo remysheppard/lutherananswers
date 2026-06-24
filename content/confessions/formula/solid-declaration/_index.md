@@ -2,6 +2,7 @@
 Title: Solid Declaration
 weight: 2
 type: docs
+contextMenu: false
 ---
 
 {{< cards >}}

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: VI - The Third Use of the Law
 Weight: 8
 type: docs

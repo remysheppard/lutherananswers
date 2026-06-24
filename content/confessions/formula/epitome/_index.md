@@ -2,6 +2,7 @@
 Title: The Epitome
 weight: 1
 type: docs
+contextMenu: false
 ---
 
 {{< cards >}}

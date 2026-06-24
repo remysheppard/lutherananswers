@@ -1,6 +1,7 @@
 ---
 title: Christian Living
 type: docs
+contextMenu: false
 sidebar:
   icon: heartbeat
 ---

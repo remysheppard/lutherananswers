@@ -2,6 +2,7 @@
 Title: The Formula of Concord
 weight: 8
 type: docs
+contextMenu: false
 ---
 
 {{< cards >}}

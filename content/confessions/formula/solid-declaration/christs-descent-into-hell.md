@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: IX - Christ's Descent into Hell
 Weight: 11
 type: docs

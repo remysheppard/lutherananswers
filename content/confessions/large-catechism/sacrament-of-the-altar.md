@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Sacrament of the Altar
 Weight: 6
 type: docs

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: X - Church Rites.
 Weight: 11
 type: docs

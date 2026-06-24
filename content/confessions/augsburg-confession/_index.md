@@ -4,6 +4,7 @@ Weight: 3
 next: /confessions/augsburg-confession/preface
 type: docs
 toc: false
+contextMenu: false
 ---
 {{< cards >}}
 

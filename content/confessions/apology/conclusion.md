@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 title: Conclusion To The Apology
 weight: 3
 type: docs

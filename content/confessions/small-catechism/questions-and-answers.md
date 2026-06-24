@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Christian Questions and their Answers
 Weight: 10
 type: docs

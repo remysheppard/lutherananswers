@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 title: Preface to the Augsburg Confession
 weight: 1
 next: /boc/augsburg-confession/articles

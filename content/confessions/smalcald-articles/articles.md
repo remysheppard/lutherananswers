@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 title: The Smalcald Articles
 weight: 2
 type: docs

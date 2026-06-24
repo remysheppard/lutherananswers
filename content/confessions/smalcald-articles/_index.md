@@ -2,6 +2,7 @@
 title: The Smalcald Articles
 weight: 5
 type: docs
+contextMenu: false
 ---
 
 {{< cards >}}

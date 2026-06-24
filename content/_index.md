@@ -3,7 +3,9 @@ date: '2025-10-08T20:23:45-04:00'
 toc: false
 ---
 
-<img src="hero-alt.jpg" alt="A Priest in a red chasuble standing in an empty gothic church." style="float:right;margin:0 0 0 1em" width="350" />
+<div style="max-width:880px; margin:0 auto">
+
+<img src="hero-alt.jpg" alt="A Priest in a red chasuble standing in an empty gothic church." style="float:right;margin:0 0 2em 1em" width="350" />
 
 {{< hextra/hero-headline >}}
   Biblical. Historical. Confessional.
@@ -34,18 +36,23 @@ We publish a [**weekly newsletter**](https://buttondown.com/lutherananswers) to 
 
 We're always looking for contributors to help us grow this resource. If you'd like to contribute, [submit your content here.](https://docs.google.com/forms/d/e/1FAIpQLScMaXLqXx2cKW-kg01uH3Cx1WtTfx1Uieztix2aFxfq3cN6wg/viewform?usp=header)
 
+<!-- Newsletter Callout -->
 {{< callout type="info" icon="envelopes-bulk">}}
 
-<div style="position: relative; float: left; margin-right: 2.5em; width: 205px;">
-  <img src="/st-john.jpg" style="display: block; width: 100%;border:solid 1px" loading="lazy"/>
-  <div style="position: absolute; inset: 0; background-color: #0099ff; mix-blend-mode: color; opacity: 0.3;"></div>
-</div>
+<div class="hx:flex hx:flex-col hx:md:flex-row hx:gap-6 hx:items-start">
+
+  <div style="position: relative; width: 205px; flex-shrink: 0;" class="hx:mx-auto hx:md:mx-0">
+    <img src="/st-john.jpg" style="display: block; width: 100%; border: solid 1px;" loading="lazy"/>
+    <div style="position: absolute; inset: 0; background-color: #0099ff; mix-blend-mode: color; opacity: 0.3;"></div>
+  </div>
+
+  <div class="hx:flex-1">
 
 ### Subscribe to the Newsletter!
 
 Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today to get new articles, podcast episodes, and devotionals from Lutheran Answers sent straight to your inbox.
 
-<span class="spacer mt-8"></span>
+<span class="spacer mt-8 "></span>
 <style>
   button:hover {
     cursor: pointer;
@@ -123,7 +130,12 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
   </button>
 </form>
 
+  </div>
+</div>
+
 {{< /callout >}}
+
+</div>
 
 ## Answers to Christianity's Toughest Questions
 
@@ -228,3 +240,4 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
   >}}
   
 {{< /hextra/feature-grid >}}
+

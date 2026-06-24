@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Philip Melanchthon Presents His Greetings to the Reader
 Weight: 1
 type: docs

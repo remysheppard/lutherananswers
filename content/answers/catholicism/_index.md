@@ -1,6 +1,7 @@
 ---
 type: docs
 title: Roman Catholicism
+contextMenu: false
 feature: /images/answers/roman-catholicism.jpg
 sidebar:
   icon: keys

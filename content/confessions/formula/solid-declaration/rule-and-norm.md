@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Comprehensive Summary
 Weight: 2
 type: docs

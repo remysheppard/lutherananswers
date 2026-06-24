@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Preface
 Weight: 1
 next: /boc/ecumenical-creeds/

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: XII - Other Sects.
 Weight: 13
 type: docs

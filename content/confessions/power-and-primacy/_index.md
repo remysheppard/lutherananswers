@@ -2,6 +2,7 @@
 Title: The Power & Primacy of The Pope
 weight: 6
 type: docs
+contextMenu: false
 ---
 
 {{< cards >}}

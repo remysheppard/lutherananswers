@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: "Comprehensive Summary: The Rule and Norm"
 Weight: 1
 type: docs

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Signatories of The Tractate
 Weight: 3
 type: docs

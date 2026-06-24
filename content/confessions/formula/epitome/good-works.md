@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: IV - Good Works.
 Weight: 5
 type: docs

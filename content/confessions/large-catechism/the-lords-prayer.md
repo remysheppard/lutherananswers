@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Lord's Prayer
 Weight: 4
 type: docs

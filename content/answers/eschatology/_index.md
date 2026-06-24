@@ -1,6 +1,7 @@
 ---
 type: docs
 title: "Eschatology"
+contextMenu: false
 feature: /images/answers/eschatology-header.jpg
 sidebar:
   icon: fire-flame

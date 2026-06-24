@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Ten Commandments
 Weight: 2
 type: docs

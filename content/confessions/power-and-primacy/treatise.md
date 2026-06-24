@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Treatise Compiled by the Theologians Assembled at Smalcald - 1537
 Weight: 1
 type: docs

@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: XI - Election.
 Weight: 12
 type: docs

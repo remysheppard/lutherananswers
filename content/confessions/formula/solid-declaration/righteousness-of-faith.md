@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: III - The Righteousness of Faith
 Weight: 5
 type: docs

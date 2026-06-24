@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Sacrament of Holy Baptism
 Weight: 5
 type: docs

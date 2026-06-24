@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Conclusion to the Augsburg Confession
 Weight: 3
 type: docs

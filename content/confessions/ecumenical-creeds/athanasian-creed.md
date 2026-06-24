@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Athanasian Creed
 weight: 3
 type: docs

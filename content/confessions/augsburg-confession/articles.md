@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: The Articles of The Augsburg Confession
 Weight: 2
 next: /boc/augsburg-confession/conclusion

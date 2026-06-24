@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: I - Original Sin.
 Weight: 2
 ---

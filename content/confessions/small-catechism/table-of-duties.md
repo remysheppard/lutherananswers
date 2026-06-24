@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: Table of Duties
 Weight: 9
 type: docs

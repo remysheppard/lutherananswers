@@ -1,4 +1,5 @@
 ---
+contextMenu: false
 Title: III - The Righteousness of Faith Before God.
 Weight: 4
 type: docs
