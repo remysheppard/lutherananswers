@@ -60,10 +60,6 @@ menus:
       pageRef: /confessions
       weight: 2
 
-    - name: Articles
-      pageRef: /Articles
-      weight: 3
-
     #    - name: Merch
     #      pageRef: /
     #      weight: 4
