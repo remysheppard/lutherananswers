@@ -5,6 +5,8 @@ prev: /confessions/preface/
 next: confessions/ecumenical-creeds/apostles-creed/
 type: docs
 contextMenu: false
+sidebar:
+  icon: scroll
 ---
 
 {{< cards >}}

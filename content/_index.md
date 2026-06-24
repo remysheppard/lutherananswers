@@ -39,9 +39,17 @@ We're always looking for contributors to help us grow this resource. If you'd li
 <!-- Newsletter Callout -->
 {{< callout type="info" icon="envelopes-bulk">}}
 
-<div class="hx:flex hx:flex-col hx:md:flex-row hx:gap-6 hx:items-start">
+<style>
+  .newsletter-layout { display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-start; }
+  .newsletter-layout h3 { margin-top: 0; }
+  @media (min-width: 768px) { .newsletter-layout { flex-direction: row; } }
+  .newsletter-img { position: relative; width: 205px; flex-shrink: 0; margin: 0 auto; }
+  @media (min-width: 768px) { .newsletter-img { margin: 0; } }
+</style>
 
-  <div style="position: relative; width: 205px; flex-shrink: 0;" class="hx:mx-auto hx:md:mx-0">
+<div class="newsletter-layout">
+
+  <div class="newsletter-img">
     <img src="/st-john.jpg" style="display: block; width: 100%; border: solid 1px;" loading="lazy"/>
     <div style="position: absolute; inset: 0; background-color: #0099ff; mix-blend-mode: color; opacity: 0.3;"></div>
   </div>
