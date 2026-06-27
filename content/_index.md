@@ -37,10 +37,11 @@ We publish a [**weekly newsletter**](https://buttondown.com/lutherananswers) to 
 We're always looking for contributors to help us grow this resource. If you'd like to contribute, [submit your content here.](https://docs.google.com/forms/d/e/1FAIpQLScMaXLqXx2cKW-kg01uH3Cx1WtTfx1Uieztix2aFxfq3cN6wg/viewform?usp=header)
 
 <!-- Newsletter Callout -->
+<div style="max-width: 700px; margin: 0 auto;">
 {{< callout type="info" icon="envelopes-bulk">}}
 
 <style>
-  .newsletter-layout { display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-start; }
+  .newsletter-layout { display: flex; flex-direction: column; gap: 1.5rem; align-items: center; text-align: center; }
   .newsletter-layout h3 { margin-top: 0; }
   @media (min-width: 768px) { .newsletter-layout { flex-direction: row; } }
   .newsletter-img { position: relative; width: 205px; flex-shrink: 0; margin: 0 auto; }
@@ -92,7 +93,8 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
       border: 1px solid;
       padding:2px;
       width:300px;
-      max-width:100%" 
+      max-width:100%;
+      margin:0 auto" 
   />
   <br />
   <label 
@@ -114,7 +116,8 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
       border: 1px solid;
       padding:2px;
       width:300px;
-      max-width:100%
+      max-width:100%;
+      margin:0 auto
   " />
   <button 
     type="submit" 
@@ -132,7 +135,9 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
       color: #ffffff; 
       background-color: #0099ff;
       width:300px;
-      max-width:100%
+      max-width:100%;
+      margin-left:auto;
+      margin-right:auto
   ">
     Subscribe Today!&nbsp;<i class="fa-solid fa-paper-plane"></i>
   </button>
@@ -142,7 +147,6 @@ Clear answers, rooted in Scripture, and delivered to you weekly. Subscribe today
 </div>
 
 {{< /callout >}}
-
 </div>
 
 ## Answers to Christianity's Toughest Questions

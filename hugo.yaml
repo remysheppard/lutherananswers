@@ -67,6 +67,8 @@ menus:
     - name: Newsletter
       url: https://buttondown.com/lutherananswers
       weight: 5
+      params:
+        event: true
 
     - name: Search
       params:
@@ -76,11 +78,13 @@ menus:
       url: https://x.com/lutherananswers
       params:
         icon: x-twitter
+        event: true
 
     - name: youtube
       url: https://www.youtube.com/@lutherananswers
       params:
         icon: youtube
+        event: true
 
     - name: Theme Toggle
       params:
@@ -91,6 +95,7 @@ menus:
       params:
         type: link
         icon: donate
+        event: true
 
   # ---------------------------------------------------------------------------
   # Footer nav (site links column)
@@ -111,6 +116,8 @@ menus:
     - name: Newsletter
       url: https://buttondown.com/lutherananswers
       weight: 4
+      params:
+        event: true
 
     - name: Big Craig
       pageRef: /big-craig/
@@ -129,30 +136,35 @@ menus:
       weight: 1
       params:
         icon: fa-brands fa-youtube
+        event: true
 
     - name: Spotify
       url: https://open.spotify.com/show/4UMWuMKo1ySP7jfsem6VeN
       weight: 2
       params:
         icon: fa-brands fa-spotify
+        event: true
 
     - name: Apple Podcasts
       url: https://podcasts.apple.com/us/podcast/lutheran-answers/id1566549301
       weight: 3
       params:
         icon: fa-solid fa-podcast
+        event: true
 
     - name: Elon Musk's X
       url: https://x.com/lutherananswers
       weight: 4
       params:
         icon: fa-brands fa-x-twitter
+        event: true
 
     - name: Donate
       url: https://donate.stripe.com/5kQdRb8WJ6cD4q684Bds400
       weight: 5
       params:
         icon: fa-sharp fa-heart
+        event: true
 
 
 # =============================================================================
