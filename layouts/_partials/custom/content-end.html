@@ -1,37 +1,52 @@
 {{ if and (eq .Section "answers") (.IsPage) }}
 
-  <div class="hx:flex hx:flex-wrap hx:items-center hx:justify-between hx:w-full hx:mt-8 hx:mb-12 hx:p-4 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:bg-gray-50 hx:dark:bg-neutral-900" style="gap: 2rem;">
+  <div class="hx:flex hx:flex-col hx:w-full hx:mt-8 hx:mb-12 hx:rounded-xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:overflow-hidden">
+
     <!-- Kudos -->
-    <div class="hx:flex hx:items-center hx:gap-3">
+    <div class="hx:flex hx:items-center hx:flex-wrap hx:gap-3 hx:px-5 hx:py-4 hx:bg-gray-50 hx:dark:bg-neutral-900" style="padding:2em;align-items:center">
       <span class="hx:text-lg">
         ❤️ <strong class="hx:font-semibold">Like this article?</strong> Give it some love!&nbsp;&nbsp;
       </span>
       <button
-        class="tinylytics_kudos hx:min-w-[3.5rem] hx:px-4 hx:py-2 hx:rounded-full hx:border hx:border-primary-300 hx:dark:border-primary-700 hx:bg-primary-100 hx:dark:bg-primary-400/10 hx:transition-all hx:duration-150 hx:hover:scale-105 hx:hover:border-primary-500 hx:hover:bg-primary-200 hx:dark:hover:bg-primary-400/20 hx:hover:shadow-md hx:cursor-pointer"
+        class="tinylytics_kudos hx:min-w-14 hx:px-4 hx:py-2 hx:rounded-full hx:border hx:border-primary-300 hx:dark:border-primary-700 hx:bg-primary-100 hx:dark:bg-primary-400/10 hx:transition-all hx:duration-150 hx:hover:scale-105 hx:hover:border-primary-500 hx:hover:bg-primary-200 hx:dark:hover:bg-primary-400/20 hx:hover:shadow-md hx:cursor-pointer"
       ></button>
     </div>
 
     <!-- Newsletter -->
-    <div class="hx:flex hx:flex-col hx:gap-2 hx:min-w-[260px]">
-      <p class="hx:font-semibold hx:text-lg">Join our newsletter!</p>
+    <div class="hx:flex hx:flex-col hx:gap-3 hx:px-5 hx:py-5" style="padding:4em">
+      <p class="hx:font-bold hx:text-xl hx:m-0">
+        <i class="fa-solid fa-envelope" style="color:rgb(252, 113, 113)"></i>&nbsp;Join our newsletter!
+      </p>
+      <p class="hx:text-sm hx:m-0">
+        Clear answers, rooted in Scripture, and delivered to you weekly. Get new articles, podcast episodes, and devotionals from Lutheran Answers sent straight to your inbox.
+      </p>
       <form
         action="https://buttondown.com/api/emails/embed-subscribe/LutheranAnswers"
         method="post"
-        class="embeddable-buttondown-form hx:flex hx:gap-2"
+        class="embeddable-buttondown-form hx:flex hx:flex-col hx:gap-2"
       >
         <input
+          type="text"
+          placeholder="First name (optional)"
+          name="metadata__f_name"
+          id="f_name"
+          class="hx:w-full hx:px-3 hx:py-2 hx:rounded-md hx:text-sm hx:text-gray-800"
+          style="border:1px solid"
+        />
+        <input
           type="email"
-          placeholder="Email"
+          placeholder="Email address"
           name="email"
           id="bd-email"
-          class="hx:flex-1 hx:min-w-0 hx:px-3 hx:py-2 hx:rounded-md hx:border hx:border-gray-300 hx:dark:border-neutral-700 hx:bg-transparent hx:text-sm"
+          class="hx:flex-1 hx:min-w-0 hx:px-3 hx:py-2 hx:rounded-md hx:border-0 hx:text-sm hx:text-gray-800"
+          style="border:1px solid"
         />
         <button
           type="submit"
-          class="hx:px-4 hx:py-2 hx:rounded-md hx:text-sm hx:font-semibold hx:text-white hx:whitespace-nowrap hx:cursor-pointer"
-          style="background-color:#0099ff;"
+          class="hx:px-4 hx:py-2 hx:rounded-md hx:text-sm hx:font-semibold hx:whitespace-nowrap hx:cursor-pointer hx:transition-all hx:duration-150 hx:hover:opacity-90"
+          style="background-color:#0077e6; color: #fff"
         >
-          Subscribe
+          Subscribe&nbsp;<i class="fa-solid fa-paper-plane"></i>
         </button>
       </form>
     </div>
