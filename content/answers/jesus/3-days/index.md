@@ -104,7 +104,7 @@ We see that the church, from the very beginning, celebrated Christ's resurrectio
 
 Likewise, the patristic tradition universally identifies Friday as the date of the crucifixion with that Sunday being the date of the resurrection. You cannot find any record in the fathers of anyone proposing differing crucifixion dates or attempting to adhere to a literal 72-hour interpretation of 3 days. The Fathers understood that "three days and three nights" was an idiomatic phrase, and that Jews of the time counted partial days as full days.
 
-Augustine, for example, in Letter 55 to Januarius, calls Triduum "the three memorable days (His passion, His day in the grave, and His resurrection)" ([Augustine, Letter 55, 14:26](https://www.newadvent.org/fathers/1102055.htm)).
+Augustine, for example, in Letter 55 to Januarius, calls {{< term "Triduum" >}} "the three memorable days (His passion, His day in the grave, and His resurrection)" ([Augustine, Letter 55, 14:26](https://www.newadvent.org/fathers/1102055.htm)).
 
 ### The Lutheran Confessions
 
